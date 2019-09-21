@@ -1,0 +1,38 @@
+ 
+ 1          OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+ 72         
+ 73         data prob2;
+ 74         input ID $
+ 75         Height /* in inches */
+ 76         Weight /* in pounds */
+ 77         SBP /* systolic BP */
+ 78         DBP /* diastolic BP */;
+ 79         
+ 80         HtCm = height*2.54;
+ 81         WtKg = weight/2.2;
+ 82         AveBP = DBP + (SBP-DBP)/3;
+ 83         HtPolynomial = 2*Height**2 + 1.5*height**3;
+ 84         
+ 85         datalines;
+ 
+ NOTE: The data set WORK.PROB2 has 3 observations and 9 variables.
+ NOTE: DATA statement used (Total process time):
+       real time           0.01 seconds
+       cpu time            0.02 seconds
+       
+ 
+ 89         ;
+ 90         title "Listing of PROB2";
+ 91         proc print data=prob2;
+ 92         run;
+ 
+ NOTE: There were 3 observations read from the data set WORK.PROB2.
+ NOTE: PROCEDURE PRINT used (Total process time):
+       real time           0.17 seconds
+       cpu time            0.17 seconds
+       
+ 
+ 93         
+ 94         
+ 95         OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+ 107        

@@ -1,0 +1,62 @@
+ 
+ 1          OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+ 72         
+ 73         /**********************************************************************************************
+ 74         *  BAN130 – Assignment 2
+ 75         *  I declare that this assignment is my own work in accordance with Seneca  Academic Policy.
+ 76         *  No part of this assignment has been copied manually or electronically from any other source
+ 77         *  (including web sites) or distributed to other students.
+ 78         *
+ 79         *Name: HaPhan Tran Student ID: 122 699 176 Date: Sep 20, 2019
+ 80         *
+ 81         *   QUESTION No: 2
+ 82         ***********************************************************************************************/
+ 83         
+ 84         filename fileref '/folders/myfolders/ban130/data/political.csv';
+ 85         data Votes;
+ 86         infile fileref dsd;
+ 87         input State $ Party $ Age;
+ 88         run;
+ 
+ NOTE: The infile FILEREF is:
+       Filename=/folders/myfolders/ban130/data/political.csv,
+       Owner Name=root,Group Name=vboxsf,
+       Access Permission=-rwxrwx---,
+       Last Modified=06Sep2019:15:38:58,
+       File Size (bytes)=65
+ 
+ NOTE: 5 records were read from the infile FILEREF.
+       The minimum record length was 11.
+       The maximum record length was 12.
+ NOTE: The data set WORK.VOTES has 5 observations and 3 variables.
+ NOTE: DATA statement used (Total process time):
+       real time           0.02 seconds
+       cpu time            0.02 seconds
+       
+ 
+ 89         
+ 90         Title "Voting Dataset with State, Party and Age";
+ 91         proc print data= votes;
+ 92         run;
+ 
+ NOTE: There were 5 observations read from the data set WORK.VOTES.
+ NOTE: PROCEDURE PRINT used (Total process time):
+       real time           0.20 seconds
+       cpu time            0.20 seconds
+       
+ 
+ 93         
+ 94         title "Party Frequencies table for Party";
+ 95         proc freq data=votes;
+ 96         tables party;
+ 97         run;
+ 
+ NOTE: There were 5 observations read from the data set WORK.VOTES.
+ NOTE: PROCEDURE FREQ used (Total process time):
+       real time           0.17 seconds
+       cpu time            0.15 seconds
+       
+ 
+ 98         
+ 99         OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+ 111        

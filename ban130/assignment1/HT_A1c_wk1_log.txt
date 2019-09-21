@@ -1,0 +1,59 @@
+ 
+ 1          OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+ 72         
+ 73         *---------------------------------------------------*
+ 74         | Program name: stocks.sas in c:\books\learning |
+ 75         | Purpose: Read in raw data on stock prices and |
+ 76         | compute values |
+ 77         | Programmer: Ron Cody |
+ 78         | Date: June 23, 2006 |
+ 79         *---------------------------------------------------*;
+ 80         *a;
+ 81         data portfolio;
+ 82         infile '/folders/myfolders/ban130/data/stocks.txt';
+ 83         input Symbol $ Price Number;
+ 84         Value = Number*Price;
+ 85         run;
+ 
+ NOTE: The infile '/folders/myfolders/ban130/data/stocks.txt' is:
+       Filename=/folders/myfolders/ban130/data/stocks.txt,
+       Owner Name=root,Group Name=vboxsf,
+       Access Permission=-rwxrwx---,
+       Last Modified=06Sep2019:15:38:58,
+       File Size (bytes)=88
+ 
+ NOTE: 6 records were read from the infile '/folders/myfolders/ban130/data/stocks.txt'.
+       The minimum record length was 12.
+       The maximum record length was 14.
+ NOTE: The data set WORK.PORTFOLIO has 6 observations and 4 variables.
+ NOTE: DATA statement used (Total process time):
+       real time           0.02 seconds
+       cpu time            0.01 seconds
+       
+ 
+ 86         title "Listing of Portfolio";
+ 87         proc print data=portfolio noobs;
+ 88         run;
+ 
+ NOTE: There were 6 observations read from the data set WORK.PORTFOLIO.
+ NOTE: PROCEDURE PRINT used (Total process time):
+       real time           0.17 seconds
+       cpu time            0.17 seconds
+       
+ 
+ 89         *b;
+ 90         title "Means and Sums of Portfolio Variables";
+ 91         
+ 92         proc means data=portfolio n mean sum maxdec=0;
+ 93         var Price Number;
+ 94         run;
+ 
+ NOTE: There were 6 observations read from the data set WORK.PORTFOLIO.
+ NOTE: PROCEDURE MEANS used (Total process time):
+       real time           0.13 seconds
+       cpu time            0.13 seconds
+       
+ 
+ 95         
+ 96         OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+ 108        
