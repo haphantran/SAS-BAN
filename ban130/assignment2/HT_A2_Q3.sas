@@ -15,8 +15,9 @@ input Name $ 1-15
 	Acct $ 16-20
 	Balance 21-26
 	Rate 27-30;
-	Interest = Balance*rate/100;
+	Interest = Balance*rate/100; *because the rate is percentage, I divide the result by 100;
+	
 run;
-title "Banking Data";
+title "Banking Data with interest computed";
 proc print data=bank;
 run;

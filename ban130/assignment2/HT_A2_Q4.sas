@@ -14,6 +14,7 @@ input @1 Name $15.
 	@16 Acct $5.
 	@21 Balance 6.
 	@27 rate 4.;
+Interest = Balance*rate/100; *because the rate is percentage, I divide the result by 100;
 
 run;
 title "Banking Data";
