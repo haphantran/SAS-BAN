@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>Assignment2_CategoricalVariables_StudentName(2)</title>
+<title>Assignment2_CategoricalVariables_Tran</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13141,16 +13141,18 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-sas"><pre><span></span>libname mylib &#39;/folders/myfolders/Assignments&#39;;
+
 /* 
 uncomment to get the original data 
 DATA mylib.customer_all;
     set mylib.customer_all_copy;
 run;
 */
+
 proc freq data=mylib.customer_all ;
     tables y;
 run;
@@ -13166,19 +13168,7 @@ run;
 
 <div class="output_area">
 
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>SAS Connection established. Subprocess id is 10326
-
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[1]:</div>
+    <div class="prompt output_prompt">Out[5]:</div>
 
 
 
@@ -14360,10 +14350,10 @@ a:visited { color: #800080 }
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-sas"><pre><span></span>proc freq data= mylib.customer_all;
+<div class=" highlight hl-sas"><pre><span></span>proc freq data=mylib.customer_all ;
     tables contact;
 run;
 </pre></div>
@@ -14378,7 +14368,7 @@ run;
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[3]:</div>
+    <div class="prompt output_prompt">Out[6]:</div>
 
 
 
@@ -15557,7 +15547,7 @@ a:visited { color: #800080 }
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Answer:</p>
+<p>Answer: 'unknown' is an invalid value.</p>
 
 </div>
 </div>
@@ -15578,7 +15568,7 @@ Cody's Data Cleaning Techniques Using SAS, Third Edition</code></pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-sas"><pre><span></span>proc format; 
@@ -15603,7 +15593,7 @@ run;
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[4]:</div>
+    <div class="prompt output_prompt">Out[7]:</div>
 
 
 
@@ -16774,7 +16764,7 @@ a:visited { color: #800080 }
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-sas"><pre><span></span>data mylib.customer_all;
@@ -16793,7 +16783,7 @@ run;
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[5]:</div>
+    <div class="prompt output_prompt">Out[9]:</div>
 
 
 
@@ -16862,7 +16852,7 @@ body .vi { color: #008000 } /* Name.Variable.Instance */
 <body>
 <h2></h2>
 
-<div class="highlight"><pre><span></span><span class="s">82   ods listing close;ods html5 (id=saspy_internal) file=stdout options(bitmap_mode=&#39;inline&#39;) device=svg style=HTMLBlue; ods</span><br><span class="s">82 ! graphics on / outputfmt=png;</span><br><span class="cm">NOTE: Writing HTML5(SASPY_INTERNAL) Body file: STDOUT</span><br><span class="s">83   </span><br><span class="s">84   data mylib.customer_all;</span><br><span class="s">85       set mylib.customer_all;</span><br><span class="s">86       education = lowcase(education);</span><br><span class="s">87   run;</span><br><span class="cm">NOTE: There were 10578 observations read from the data set MYLIB.CUSTOMER_ALL.</span><br><span class="cm">NOTE: The data set MYLIB.CUSTOMER_ALL has 10578 observations and 17 variables.</span><br><span class="cm">NOTE: DATA statement used (Total process time):</span><br><span class="cm">      real time           0.09 seconds</span><br><span class="cm">      cpu time            0.04 seconds</span><br><span class="cm">      </span><br><span class="s">88   </span><br><span class="s">89   </span><br><span class="s">90   ods html5 (id=saspy_internal) close;ods listing;</span><br><br><span class="s">91   </span><br></pre></div>
+<div class="highlight"><pre><span></span><span class="s">141  ods listing close;ods html5 (id=saspy_internal) file=stdout options(bitmap_mode=&#39;inline&#39;) device=svg style=HTMLBlue; ods</span><br><span class="s">141! graphics on / outputfmt=png;</span><br><span class="cm">NOTE: Writing HTML5(SASPY_INTERNAL) Body file: STDOUT</span><br><span class="s">142  </span><br><span class="s">143  data mylib.customer_all;</span><br><span class="s">144      set mylib.customer_all;</span><br><span class="s">145      education = lowcase(education);</span><br><span class="s">146  run;</span><br><span class="cm">NOTE: There were 10578 observations read from the data set MYLIB.CUSTOMER_ALL.</span><br><span class="cm">NOTE: The data set MYLIB.CUSTOMER_ALL has 10578 observations and 17 variables.</span><br><span class="cm">NOTE: DATA statement used (Total process time):</span><br><span class="cm">      real time           0.10 seconds</span><br><span class="cm">      cpu time            0.07 seconds</span><br><span class="cm">      </span><br><span class="s">147  </span><br><span class="s">148  </span><br><span class="s">149  ods html5 (id=saspy_internal) close;ods listing;</span><br><br><span class="s">150  </span><br></pre></div>
 </body>
 </html>
 
@@ -16885,7 +16875,7 @@ body .vi { color: #008000 } /* Name.Variable.Instance */
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-sas"><pre><span></span>proc freq data=mylib.customer_all; 
@@ -16904,7 +16894,7 @@ run;
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[6]:</div>
+    <div class="prompt output_prompt">Out[10]:</div>
 
 
 
@@ -18075,7 +18065,7 @@ Cody's Data Cleaning Techniques Using SAS, Third Edition</code></pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-sas"><pre><span></span>title &quot;Using PROC Print to Identify Data Errors in variable marital&quot;;
@@ -18097,7 +18087,7 @@ run;
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[7]:</div>
+    <div class="prompt output_prompt">Out[11]:</div>
 
 
 
@@ -19484,7 +19474,7 @@ a:visited { color: #800080 }
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-sas"><pre><span></span>data mylib.customer_all; 
@@ -19503,7 +19493,7 @@ run;
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[8]:</div>
+    <div class="prompt output_prompt">Out[12]:</div>
 
 
 
@@ -19572,7 +19562,7 @@ body .vi { color: #008000 } /* Name.Variable.Instance */
 <body>
 <h2></h2>
 
-<div class="highlight"><pre><span></span><span class="s">117  ods listing close;ods html5 (id=saspy_internal) file=stdout options(bitmap_mode=&#39;inline&#39;) device=svg style=HTMLBlue; ods</span><br><span class="s">117! graphics on / outputfmt=png;</span><br><span class="cm">NOTE: Writing HTML5(SASPY_INTERNAL) Body file: STDOUT</span><br><span class="s">118  </span><br><span class="s">119  data mylib.customer_all;</span><br><span class="s">120      set mylib.customer_all;</span><br><span class="s">121      marital = lowcase(marital);</span><br><span class="s">122  run;</span><br><span class="cm">NOTE: There were 10578 observations read from the data set MYLIB.CUSTOMER_ALL.</span><br><span class="cm">NOTE: The data set MYLIB.CUSTOMER_ALL has 10578 observations and 17 variables.</span><br><span class="cm">NOTE: DATA statement used (Total process time):</span><br><span class="cm">      real time           0.10 seconds</span><br><span class="cm">      cpu time            0.06 seconds</span><br><span class="cm">      </span><br><span class="s">123  </span><br><span class="s">124  ods html5 (id=saspy_internal) close;ods listing;</span><br><br><span class="s">125  </span><br></pre></div>
+<div class="highlight"><pre><span></span><span class="s">176  ods listing close;ods html5 (id=saspy_internal) file=stdout options(bitmap_mode=&#39;inline&#39;) device=svg style=HTMLBlue; ods</span><br><span class="s">176! graphics on / outputfmt=png;</span><br><span class="cm">NOTE: Writing HTML5(SASPY_INTERNAL) Body file: STDOUT</span><br><span class="s">177  </span><br><span class="s">178  data mylib.customer_all;</span><br><span class="s">179      set mylib.customer_all;</span><br><span class="s">180      marital = lowcase(marital);</span><br><span class="s">181  run;</span><br><span class="cm">NOTE: There were 10578 observations read from the data set MYLIB.CUSTOMER_ALL.</span><br><span class="cm">NOTE: The data set MYLIB.CUSTOMER_ALL has 10578 observations and 17 variables.</span><br><span class="cm">NOTE: DATA statement used (Total process time):</span><br><span class="cm">      real time           0.09 seconds</span><br><span class="cm">      cpu time            0.06 seconds</span><br><span class="cm">      </span><br><span class="s">182  </span><br><span class="s">183  ods html5 (id=saspy_internal) close;ods listing;</span><br><br><span class="s">184  </span><br></pre></div>
 </body>
 </html>
 
@@ -19595,7 +19585,7 @@ body .vi { color: #008000 } /* Name.Variable.Instance */
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-sas"><pre><span></span>title &quot;Frequency table for variable marital after lower case&quot;;
@@ -19614,7 +19604,7 @@ run;
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[9]:</div>
+    <div class="prompt output_prompt">Out[13]:</div>
 
 
 
@@ -20796,7 +20786,7 @@ a:visited { color: #800080 }
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-sas"><pre><span></span>title &quot;Frequency table for variable Job&quot;;
@@ -20815,7 +20805,7 @@ run;
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[10]:</div>
+    <div class="prompt output_prompt">Out[14]:</div>
 
 
 
@@ -22030,7 +22020,7 @@ a:visited { color: #800080 }
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-sas"><pre><span></span>data mylib.customer_all;
@@ -22049,7 +22039,7 @@ run;
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[11]:</div>
+    <div class="prompt output_prompt">Out[15]:</div>
 
 
 
@@ -22118,7 +22108,7 @@ body .vi { color: #008000 } /* Name.Variable.Instance */
 <body>
 <h2></h2>
 
-<div class="highlight"><pre><span></span><span class="s">149  ods listing close;ods html5 (id=saspy_internal) file=stdout options(bitmap_mode=&#39;inline&#39;) device=svg style=HTMLBlue; ods</span><br><span class="s">149! graphics on / outputfmt=png;</span><br><span class="cm">NOTE: Writing HTML5(SASPY_INTERNAL) Body file: STDOUT</span><br><span class="s">150  </span><br><span class="s">151  </span><br><span class="s">152  data mylib.customer_all;</span><br><span class="s">153      set mylib.customer_all;</span><br><span class="s">154      if job in (&quot;admin.&quot;, &quot;ADMINISTRATION&quot;) then job = &#39;admin&#39;;</span><br><span class="s">155  run;</span><br><span class="cm">NOTE: There were 10578 observations read from the data set MYLIB.CUSTOMER_ALL.</span><br><span class="cm">NOTE: The data set MYLIB.CUSTOMER_ALL has 10578 observations and 17 variables.</span><br><span class="cm">NOTE: DATA statement used (Total process time):</span><br><span class="cm">      real time           0.07 seconds</span><br><span class="cm">      cpu time            0.04 seconds</span><br><span class="cm">      </span><br><span class="s">156  </span><br><span class="s">157  </span><br><span class="s">158  ods html5 (id=saspy_internal) close;ods listing;</span><br><br><span class="s">159  </span><br></pre></div>
+<div class="highlight"><pre><span></span><span class="s">207  ods listing close;ods html5 (id=saspy_internal) file=stdout options(bitmap_mode=&#39;inline&#39;) device=svg style=HTMLBlue; ods</span><br><span class="s">207! graphics on / outputfmt=png;</span><br><span class="cm">NOTE: Writing HTML5(SASPY_INTERNAL) Body file: STDOUT</span><br><span class="s">208  </span><br><span class="s">209  data mylib.customer_all;</span><br><span class="s">210      set mylib.customer_all;</span><br><span class="s">211      if job in (&quot;admin.&quot;, &quot;ADMINISTRATION&quot;) then job = &#39;admin&#39;;</span><br><span class="s">212  run;</span><br><span class="cm">NOTE: There were 10578 observations read from the data set MYLIB.CUSTOMER_ALL.</span><br><span class="cm">NOTE: The data set MYLIB.CUSTOMER_ALL has 10578 observations and 17 variables.</span><br><span class="cm">NOTE: DATA statement used (Total process time):</span><br><span class="cm">      real time           0.08 seconds</span><br><span class="cm">      cpu time            0.04 seconds</span><br><span class="cm">      </span><br><span class="s">213  </span><br><span class="s">214  </span><br><span class="s">215  ods html5 (id=saspy_internal) close;ods listing;</span><br><br><span class="s">216  </span><br></pre></div>
 </body>
 </html>
 
@@ -22141,7 +22131,7 @@ body .vi { color: #008000 } /* Name.Variable.Instance */
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-sas"><pre><span></span>title &quot;Frequency table for variable Job after combine admin. and ADMINISTRATION&quot;;
@@ -22160,7 +22150,7 @@ run;
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[12]:</div>
+    <div class="prompt output_prompt">Out[16]:</div>
 
 
 
@@ -23385,7 +23375,7 @@ Chapter 1 - Working with Character Data Cody's Data Cleaning Techniques Using SA
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-sas"><pre><span></span>title &quot;Checking Missing Character Values&quot;;
@@ -23410,7 +23400,7 @@ Chapter 1 - Working with Character Data Cody's Data Cleaning Techniques Using SA
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[13]:</div>
+    <div class="prompt output_prompt">Out[17]:</div>
 
 
 
@@ -24538,6 +24528,72 @@ a:visited { color: #800080 }
 <colgroup><col/></colgroup><colgroup><col/><col/></colgroup>
 <thead>
 <tr>
+<th class="b header" scope="col">default</th>
+<th class="r b header" scope="col">Frequency</th>
+<th class="r b header" scope="col">Percent</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="rowheader" scope="row">Nonmissing</th>
+<td class="r data">10578</td>
+<td class="r data">100.00</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="IDX1" style="padding-bottom: 8px; padding-top: 1px">
+<div style="padding-bottom: 8px; padding-top: 1px">
+<table class="table" style="border-spacing: 0" aria-label="One-Way Frequencies">
+<caption aria-label="One-Way Frequencies"></caption>
+<colgroup><col/></colgroup><colgroup><col/><col/></colgroup>
+<thead>
+<tr>
+<th class="b header" scope="col">housing</th>
+<th class="r b header" scope="col">Frequency</th>
+<th class="r b header" scope="col">Percent</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="rowheader" scope="row">Nonmissing</th>
+<td class="r data">10578</td>
+<td class="r data">100.00</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="IDX2" style="padding-bottom: 8px; padding-top: 1px">
+<div style="padding-bottom: 8px; padding-top: 1px">
+<table class="table" style="border-spacing: 0" aria-label="One-Way Frequencies">
+<caption aria-label="One-Way Frequencies"></caption>
+<colgroup><col/></colgroup><colgroup><col/><col/></colgroup>
+<thead>
+<tr>
+<th class="b header" scope="col">loan</th>
+<th class="r b header" scope="col">Frequency</th>
+<th class="r b header" scope="col">Percent</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="rowheader" scope="row">Nonmissing</th>
+<td class="r data">10578</td>
+<td class="r data">100.00</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="IDX3" style="padding-bottom: 8px; padding-top: 1px">
+<div style="padding-bottom: 8px; padding-top: 1px">
+<table class="table" style="border-spacing: 0" aria-label="One-Way Frequencies">
+<caption aria-label="One-Way Frequencies"></caption>
+<colgroup><col/></colgroup><colgroup><col/><col/></colgroup>
+<thead>
+<tr>
 <th class="c b header" colspan="3" scope="colgroup">contact</th>
 </tr>
 <tr>
@@ -24556,7 +24612,7 @@ a:visited { color: #800080 }
 </table>
 </div>
 </div>
-<div id="IDX1" style="padding-bottom: 8px; padding-top: 1px">
+<div id="IDX4" style="padding-bottom: 8px; padding-top: 1px">
 <div style="padding-bottom: 8px; padding-top: 1px">
 <table class="table" style="border-spacing: 0" aria-label="One-Way Frequencies">
 <caption aria-label="One-Way Frequencies"></caption>
@@ -24581,7 +24637,7 @@ a:visited { color: #800080 }
 </table>
 </div>
 </div>
-<div id="IDX2" style="padding-bottom: 8px; padding-top: 1px">
+<div id="IDX5" style="padding-bottom: 8px; padding-top: 1px">
 <div style="padding-bottom: 8px; padding-top: 1px">
 <table class="table" style="border-spacing: 0" aria-label="One-Way Frequencies">
 <caption aria-label="One-Way Frequencies"></caption>
@@ -24606,7 +24662,7 @@ a:visited { color: #800080 }
 </table>
 </div>
 </div>
-<div id="IDX3" style="padding-bottom: 8px; padding-top: 1px">
+<div id="IDX6" style="padding-bottom: 8px; padding-top: 1px">
 <div style="padding-bottom: 8px; padding-top: 1px">
 <table class="table" style="border-spacing: 0" aria-label="One-Way Frequencies">
 <caption aria-label="One-Way Frequencies"></caption>
@@ -24617,72 +24673,6 @@ a:visited { color: #800080 }
 </tr>
 <tr>
 <th class="b header" scope="col">y</th>
-<th class="r b header" scope="col">Frequency</th>
-<th class="r b header" scope="col">Percent</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th class="rowheader" scope="row">Nonmissing</th>
-<td class="r data">10578</td>
-<td class="r data">100.00</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<div id="IDX4" style="padding-bottom: 8px; padding-top: 1px">
-<div style="padding-bottom: 8px; padding-top: 1px">
-<table class="table" style="border-spacing: 0" aria-label="One-Way Frequencies">
-<caption aria-label="One-Way Frequencies"></caption>
-<colgroup><col/></colgroup><colgroup><col/><col/></colgroup>
-<thead>
-<tr>
-<th class="b header" scope="col">default</th>
-<th class="r b header" scope="col">Frequency</th>
-<th class="r b header" scope="col">Percent</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th class="rowheader" scope="row">Nonmissing</th>
-<td class="r data">10578</td>
-<td class="r data">100.00</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<div id="IDX5" style="padding-bottom: 8px; padding-top: 1px">
-<div style="padding-bottom: 8px; padding-top: 1px">
-<table class="table" style="border-spacing: 0" aria-label="One-Way Frequencies">
-<caption aria-label="One-Way Frequencies"></caption>
-<colgroup><col/></colgroup><colgroup><col/><col/></colgroup>
-<thead>
-<tr>
-<th class="b header" scope="col">housing</th>
-<th class="r b header" scope="col">Frequency</th>
-<th class="r b header" scope="col">Percent</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th class="rowheader" scope="row">Nonmissing</th>
-<td class="r data">10578</td>
-<td class="r data">100.00</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<div id="IDX6" style="padding-bottom: 8px; padding-top: 1px">
-<div style="padding-bottom: 8px; padding-top: 1px">
-<table class="table" style="border-spacing: 0" aria-label="One-Way Frequencies">
-<caption aria-label="One-Way Frequencies"></caption>
-<colgroup><col/></colgroup><colgroup><col/><col/></colgroup>
-<thead>
-<tr>
-<th class="b header" scope="col">loan</th>
 <th class="r b header" scope="col">Frequency</th>
 <th class="r b header" scope="col">Percent</th>
 </tr>
@@ -24799,7 +24789,7 @@ a:visited { color: #800080 }
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-sas"><pre><span></span>proc freq data=mylib.customer_all order=freq; 
@@ -24826,7 +24816,7 @@ run;
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[14]:</div>
+    <div class="prompt output_prompt">Out[18]:</div>
 
 
 
@@ -26067,6 +26057,10 @@ a:visited { color: #800080 }
 <tr>
 <th class="r header" scope="col">Obs</th>
 <th class="r header" scope="col">customer_id</th>
+<th class="header" scope="col">default</th>
+<th class="r header" scope="col">balance</th>
+<th class="header" scope="col">housing</th>
+<th class="header" scope="col">loan</th>
 <th class="header" scope="col">contact</th>
 <th class="r header" scope="col">day</th>
 <th class="header" scope="col">month</th>
@@ -26075,10 +26069,6 @@ a:visited { color: #800080 }
 <th class="r header" scope="col">previous</th>
 <th class="header" scope="col">poutcome</th>
 <th class="header" scope="col">y</th>
-<th class="header" scope="col">default</th>
-<th class="r header" scope="col">balance</th>
-<th class="header" scope="col">housing</th>
-<th class="header" scope="col">loan</th>
 <th class="header" scope="col">Education</th>
 <th class="r header" scope="col">AGE</th>
 <th class="header" scope="col">marital</th>
@@ -26090,6 +26080,10 @@ a:visited { color: #800080 }
 <tr>
 <th class="r rowheader" scope="row">1</th>
 <td class="r data">100103</td>
+<td class="data">no</td>
+<td class="r data">2</td>
+<td class="data">yes</td>
+<td class="data">yes</td>
 <td class="data">unknown</td>
 <td class="r data">5</td>
 <td class="data">may</td>
@@ -26098,10 +26092,6 @@ a:visited { color: #800080 }
 <td class="r data">0</td>
 <td class="data">unknown</td>
 <td class="data">no</td>
-<td class="data">no</td>
-<td class="r data">2</td>
-<td class="data">yes</td>
-<td class="data">yes</td>
 <td class="data">secondary</td>
 <td class="r data">33</td>
 <td class="data">married</td>
@@ -26111,6 +26101,10 @@ a:visited { color: #800080 }
 <tr>
 <th class="r rowheader" scope="row">2</th>
 <td class="r data">100106</td>
+<td class="data">no</td>
+<td class="r data">231</td>
+<td class="data">yes</td>
+<td class="data">no</td>
 <td class="data">unknown</td>
 <td class="r data">5</td>
 <td class="data">may</td>
@@ -26118,10 +26112,6 @@ a:visited { color: #800080 }
 <td class="r data" style="white-space: nowrap">-1</td>
 <td class="r data">0</td>
 <td class="data">unknown</td>
-<td class="data">no</td>
-<td class="data">no</td>
-<td class="r data">231</td>
-<td class="data">yes</td>
 <td class="data">no</td>
 <td class="data">tertiary</td>
 <td class="r data">35</td>
@@ -26132,6 +26122,10 @@ a:visited { color: #800080 }
 <tr>
 <th class="r rowheader" scope="row">3</th>
 <td class="r data">100118</td>
+<td class="data">no</td>
+<td class="r data">52</td>
+<td class="data">yes</td>
+<td class="data">no</td>
 <td class="data">unknown</td>
 <td class="r data">5</td>
 <td class="data">may</td>
@@ -26139,10 +26133,6 @@ a:visited { color: #800080 }
 <td class="r data" style="white-space: nowrap">-1</td>
 <td class="r data">0</td>
 <td class="data">unknown</td>
-<td class="data">no</td>
-<td class="data">no</td>
-<td class="r data">52</td>
-<td class="data">yes</td>
 <td class="data">no</td>
 <td class="data">primary</td>
 <td class="r data">57</td>
@@ -26153,6 +26143,10 @@ a:visited { color: #800080 }
 <tr>
 <th class="r rowheader" scope="row">4</th>
 <td class="r data">100119</td>
+<td class="data">no</td>
+<td class="r data">60</td>
+<td class="data">yes</td>
+<td class="data">no</td>
 <td class="data">unknown</td>
 <td class="r data">5</td>
 <td class="data">may</td>
@@ -26160,10 +26154,6 @@ a:visited { color: #800080 }
 <td class="r data" style="white-space: nowrap">-1</td>
 <td class="r data">0</td>
 <td class="data">unknown</td>
-<td class="data">no</td>
-<td class="data">no</td>
-<td class="r data">60</td>
-<td class="data">yes</td>
 <td class="data">no</td>
 <td class="data">primary</td>
 <td class="r data">60</td>
@@ -26174,6 +26164,10 @@ a:visited { color: #800080 }
 <tr>
 <th class="r rowheader" scope="row">5</th>
 <td class="r data">100121</td>
+<td class="data">no</td>
+<td class="r data">723</td>
+<td class="data">yes</td>
+<td class="data">yes</td>
 <td class="data">unknown</td>
 <td class="r data">5</td>
 <td class="data">may</td>
@@ -26182,10 +26176,6 @@ a:visited { color: #800080 }
 <td class="r data">0</td>
 <td class="data">unknown</td>
 <td class="data">no</td>
-<td class="data">no</td>
-<td class="r data">723</td>
-<td class="data">yes</td>
-<td class="data">yes</td>
 <td class="data">secondary</td>
 <td class="r data">28</td>
 <td class="data">married</td>
