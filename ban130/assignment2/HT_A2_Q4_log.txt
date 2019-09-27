@@ -17,22 +17,22 @@
  86         @16 Acct $5.
  87         @21 Balance 6.
  88         @27 rate 4.;
- 89         
+ 89         Interest = Balance*rate/100;
  90         run;
  
  NOTE: The infile '/folders/myfolders/ban130/data/bankdata.txt' is:
        Filename=/folders/myfolders/ban130/data/bankdata.txt,
        Owner Name=root,Group Name=vboxsf,
        Access Permission=-rwxrwx---,
-       Last Modified=06Sep2019:15:38:57,
+       Last Modified=27Sep2019:12:06:55,
        File Size (bytes)=126
  
  NOTE: 4 records were read from the infile '/folders/myfolders/ban130/data/bankdata.txt'.
        The minimum record length was 30.
        The maximum record length was 30.
- NOTE: The data set WORK.BANK has 4 observations and 4 variables.
+ NOTE: The data set WORK.BANK has 4 observations and 5 variables.
  NOTE: DATA statement used (Total process time):
-       real time           0.02 seconds
+       real time           0.03 seconds
        cpu time            0.02 seconds
        
  
@@ -43,7 +43,7 @@
  NOTE: There were 4 observations read from the data set WORK.BANK.
  NOTE: PROCEDURE PRINT used (Total process time):
        real time           0.18 seconds
-       cpu time            0.18 seconds
+       cpu time            0.16 seconds
        
  
  94         
