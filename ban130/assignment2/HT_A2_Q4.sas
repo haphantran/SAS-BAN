@@ -8,15 +8,18 @@
 * 
 *   QUESTION No: 4
 ***********************************************************************************************/
+*data step to input data from text file;
 data Bank;
 infile '/folders/myfolders/ban130/data/bankdata.txt';
 input @1 Name $15.
 	@16 Acct $5.
-	@21 Balance 6.
-	@27 rate 4.;
-Interest = Balance*rate/100; *because the rate is percentage, I divide the result by 100;
-
+	@21 Balance 7.
+	@28 rate 3.2;
+	Interest = Balance*rate;
 run;
-title "Banking Data";
+
+title "Banking Data with interest computed";
 proc print data=bank;
+	format balance dollar11.2 interest dollar11.2 rate percent6.2;
+	*display data with appropriate format;
 run;

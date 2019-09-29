@@ -9,7 +9,10 @@
 *   QUESTION No: 2
 ***********************************************************************************************/
 
+*using filename statement and use fileref as the link to the file;
 filename fileref '/folders/myfolders/ban130/data/political.csv';
+
+*data step to input data from csv file;
 data Votes;
 infile fileref dsd;
 input State $ Party $ Age;

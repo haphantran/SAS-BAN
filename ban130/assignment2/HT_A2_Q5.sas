@@ -8,6 +8,7 @@
 * 
 *   QUESTION No: 5
 ***********************************************************************************************/  
+*data step to input data from text file;
 data Stocks;
 infile '/folders/myfolders/ban130/data/stockprices.txt';
 input @1 stock $4.
@@ -20,7 +21,11 @@ input @1 stock $4.
 	TotalSell   = number * sellprice;
 	Profit      = totalSell - totalPur;
 run;
+
+*proc print with format;
 title "Banking Data";
 proc print data=Stocks;
-	format purdate mmddyy10. selldate mmddyy10.;
+	format purdate mmddyy10. selldate mmddyy10.
+			PurPrice	dollar6.1 SellPrice  dollar6.1 
+			TotalPur dollar10.2 TotalSell dollar10.2 profit dollar10.2 ;
 run;

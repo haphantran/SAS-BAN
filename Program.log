@@ -35,21 +35,21 @@
        The maximum record length was 30.
  NOTE: The data set WORK.BANK has 4 observations and 5 variables.
  NOTE: DATA statement used (Total process time):
-       real time           0.01 seconds
-       cpu time            0.00 seconds
+       real time           0.00 seconds
+       cpu time            0.01 seconds
        
  
  94         title "Banking Data with interest computed";
  95         proc print data=bank;
- 96         format balance dollar11.2 interest dollar11.2 rate percent6.2;
+ 96         format balance dollar10.2 interest dollar10.2 rate percent6.2;
  97         *display data with appropriate format;
  98         run;
  
  NOTE: There were 4 observations read from the data set WORK.BANK.
  NOTE: At least one W.D format was too small for the number to be printed. The decimal may be shifted by the "BEST" format.
  NOTE: PROCEDURE PRINT used (Total process time):
-       real time           0.03 seconds
-       cpu time            0.03 seconds
+       real time           0.04 seconds
+       cpu time            0.04 seconds
        
  
  99         

@@ -11,24 +11,25 @@
  80         *
  81         *   QUESTION No: 5
  82         ***********************************************************************************************/
- 83         data Stocks;
- 84         infile '/folders/myfolders/ban130/data/stockprices.txt';
- 85         input @1 stock $4.
- 86         @5 PurDate mmddyy10.
- 87         @15 PurPrice dollar6.1
- 88         @21 Number 4.
- 89         @25 SellDate mmddyy10.
- 90         @35 SellPrice  dollar6.1;
- 91         TotalPur   = number * purprice;
- 92         TotalSell   = number * sellprice;
- 93         Profit      = totalSell - totalPur;
- 94         run;
+ 83         *data step to input data from text file;
+ 84         data Stocks;
+ 85         infile '/folders/myfolders/ban130/data/stockprices.txt';
+ 86         input @1 stock $4.
+ 87         @5 PurDate mmddyy10.
+ 88         @15 PurPrice dollar6.1
+ 89         @21 Number 4.
+ 90         @25 SellDate mmddyy10.
+ 91         @35 SellPrice  dollar6.1;
+ 92         TotalPur   = number * purprice;
+ 93         TotalSell   = number * sellprice;
+ 94         Profit      = totalSell - totalPur;
+ 95         run;
  
  NOTE: The infile '/folders/myfolders/ban130/data/stockprices.txt' is:
        Filename=/folders/myfolders/ban130/data/stockprices.txt,
        Owner Name=root,Group Name=vboxsf,
        Access Permission=-rwxrwx---,
-       Last Modified=06Sep2019:15:38:58,
+       Last Modified=12Sep2019:16:50:23,
        File Size (bytes)=210
  
  NOTE: 5 records were read from the infile '/folders/myfolders/ban130/data/stockprices.txt'.
@@ -36,21 +37,25 @@
        The maximum record length was 40.
  NOTE: The data set WORK.STOCKS has 5 observations and 9 variables.
  NOTE: DATA statement used (Total process time):
-       real time           0.02 seconds
-       cpu time            0.03 seconds
+       real time           0.01 seconds
+       cpu time            0.00 seconds
        
  
- 95         title "Banking Data";
- 96         proc print data=Stocks;
- 97         format purdate mmddyy10. selldate mmddyy10.;
- 98         run;
+ 96         
+ 97         *proc print with format;
+ 98         title "Banking Data";
+ 99         proc print data=Stocks;
+ 100        format purdate mmddyy10. selldate mmddyy10.
+ 101        PurPricedollar6.1 SellPrice  dollar6.1
+ 102        TotalPur dollar10.2 TotalSell dollar10.2 profit dollar10.2 ;
+ 103        run;
  
  NOTE: There were 5 observations read from the data set WORK.STOCKS.
  NOTE: PROCEDURE PRINT used (Total process time):
-       real time           0.28 seconds
-       cpu time            0.24 seconds
+       real time           0.04 seconds
+       cpu time            0.04 seconds
        
  
- 99         
- 100        OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
- 112        
+ 104        
+ 105        OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+ 117        

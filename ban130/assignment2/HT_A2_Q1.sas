@@ -8,6 +8,7 @@
 * 
 *   QUESTION No: 1
 ***********************************************************************************************/
+*data step to input data from csv file;
 data Votes;
 infile '/folders/myfolders/ban130/data/political.csv' dsd;
 input State $ Party $ Age;
