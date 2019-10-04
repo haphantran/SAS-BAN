@@ -8,3 +8,49 @@
 [I 14:14:04.564 LabApp] The Jupyter Notebook is running at:
 [I 14:14:04.565 LabApp] http://(localhost.localdomain or 127.0.0.1):8890/jupyter/
 [I 14:14:04.566 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 14:18:17.588 LabApp] 302 GET /jupyter/ (127.0.0.1) 3.30ms
+[I 14:18:20.403 LabApp] Node v8.9.4
+    
+[I 14:18:22.479 LabApp] Build is up to date
+[I 14:18:27.250 LabApp] Kernel started: b2721103-d637-4ce0-9762-efaa7b07909d
+[I 14:18:36.441 LabApp] Adapting to protocol v5.1 for kernel b2721103-d637-4ce0-9762-efaa7b07909d
+[I 14:18:36.473 LabApp] Adapting to protocol v5.1 for kernel b2721103-d637-4ce0-9762-efaa7b07909d
+[I 14:18:36.545 LabApp] Adapting to protocol v5.1 for kernel b2721103-d637-4ce0-9762-efaa7b07909d
+[W 14:18:55.111 LabApp] Notebook ban110/weekly_activity/Chapter4_DataCleaningTechniquesforNumericData(1).ipynb is not trusted
+[I 14:18:56.793 LabApp] Kernel started: 0d620203-63a8-40f1-b1b6-2fb92b466cdd
+[I 14:19:07.492 LabApp] Adapting to protocol v5.1 for kernel 0d620203-63a8-40f1-b1b6-2fb92b466cdd
+[W 14:20:42.217 LabApp] Notebook ban110/weekly_activity/Chapter17_TransformationsofCategoricalVariables.ipynb is not trusted
+[I 14:20:44.139 LabApp] Kernel started: 946b46a7-4881-46f5-81fa-2544f95e28e4
+[I 14:20:44.425 LabApp] Kernel started: b7c65ec5-88ea-43cb-a12e-223767005ffa
+[I 14:20:55.793 LabApp] Adapting to protocol v5.1 for kernel 946b46a7-4881-46f5-81fa-2544f95e28e4
+[I 14:20:55.854 LabApp] Adapting to protocol v5.1 for kernel b7c65ec5-88ea-43cb-a12e-223767005ffa
+[W 14:21:28.574 LabApp] Notebook ban110/weekly_activity/Chapter17_TransformationsofCategoricalVariables.ipynb is not trusted
+[I 14:21:30.961 LabApp] Adapting to protocol v5.1 for kernel b7c65ec5-88ea-43cb-a12e-223767005ffa
+[I 14:22:56.924 LabApp] Saving file at /ban110/weekly_activity/Chapter4_DataCleaningTechniquesforNumericData(1).ipynb
+[W 14:22:56.929 LabApp] Notebook ban110/weekly_activity/Chapter4_DataCleaningTechniquesforNumericData(1).ipynb is not trusted
+[I 14:24:57.590 LabApp] Saving file at /ban110/weekly_activity/Chapter4_DataCleaningTechniquesforNumericData(1).ipynb
+[W 14:24:57.594 LabApp] Notebook ban110/weekly_activity/Chapter4_DataCleaningTechniquesforNumericData(1).ipynb is not trusted
+[I 14:37:01.921 LabApp] Saving file at /ban110/weekly_activity/Chapter4_DataCleaningTechniquesforNumericData(1).ipynb
+[W 14:37:01.923 LabApp] Notebook ban110/weekly_activity/Chapter4_DataCleaningTechniquesforNumericData(1).ipynb is not trusted
+[I 14:39:02.632 LabApp] Saving file at /ban110/weekly_activity/Chapter4_DataCleaningTechniquesforNumericData(1).ipynb
+[W 14:39:02.635 LabApp] Notebook ban110/weekly_activity/Chapter4_DataCleaningTechniquesforNumericData(1).ipynb is not trusted
+[I 14:52:55.338 LabApp] Adapting to protocol v5.1 for kernel 946b46a7-4881-46f5-81fa-2544f95e28e4
+[W 14:53:41.905 LabApp] Notebook ban110/weekly_activity/Chapter4_DataCleaningTechniquesforNumericData(1).ipynb is not trusted
+[I 14:53:44.130 LabApp] Adapting to protocol v5.1 for kernel 0d620203-63a8-40f1-b1b6-2fb92b466cdd
+[I 15:02:54.751 LabApp] Saving file at /ban110/weekly_activity/Chapter16_TransformationsofInterval-ScaledVariables.ipynb
+[I 15:04:55.584 LabApp] Saving file at /ban110/weekly_activity/Chapter16_TransformationsofInterval-ScaledVariables.ipynb
+[I 15:14:57.776 LabApp] Saving file at /ban110/weekly_activity/Chapter16_TransformationsofInterval-ScaledVariables.ipynb
+[I 15:32:59.834 LabApp] Saving file at /ban110/weekly_activity/Chapter16_TransformationsofInterval-ScaledVariables.ipynb
+[I 15:35:00.653 LabApp] Saving file at /ban110/weekly_activity/Chapter16_TransformationsofInterval-ScaledVariables.ipynb
+[I 15:37:01.453 LabApp] Saving file at /ban110/weekly_activity/Chapter16_TransformationsofInterval-ScaledVariables.ipynb
+[I 15:39:02.231 LabApp] Saving file at /ban110/weekly_activity/Chapter16_TransformationsofInterval-ScaledVariables.ipynb
+[I 15:51:59.478 LabApp] Saving file at /ban110/weekly_activity/Chapter16_TransformationsofInterval-ScaledVariables.ipynb
+/usr/lib64/python3.5/site-packages/nbconvert/filters/highlight.py:147: UserWarning: No lexer found for language 'sas'. Treating as plain text.
+  warn("No lexer found for language %r. Treating as plain text." % language)
+[I 16:33:53.777 LabApp] Saving file at /ban110/weekly_activity/Chapter4_DataCleaningTechniquesforNumericData(1).ipynb
+[W 16:33:53.791 LabApp] Notebook ban110/weekly_activity/Chapter4_DataCleaningTechniquesforNumericData(1).ipynb is not trusted
+[I 16:35:54.332 LabApp] Saving file at /ban110/weekly_activity/Chapter4_DataCleaningTechniquesforNumericData(1).ipynb
+[W 16:35:54.334 LabApp] Notebook ban110/weekly_activity/Chapter4_DataCleaningTechniquesforNumericData(1).ipynb is not trusted
+[I 17:48:51.431 LabApp] Saving file at /ban110/weekly_activity/Chapter4_DataCleaningTechniquesforNumericData(1).ipynb
+[W 17:48:51.434 LabApp] Notebook ban110/weekly_activity/Chapter4_DataCleaningTechniquesforNumericData(1).ipynb is not trusted
+[I 17:48:54.547 LabApp] Saving file at /ban110/weekly_activity/Chapter16_TransformationsofInterval-ScaledVariables.ipynb
