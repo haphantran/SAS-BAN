@@ -113,3 +113,6 @@
 [I 19:31:17.567 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
 [I 19:33:18.303 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
 [I 19:35:07.523 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+/usr/lib64/python3.5/site-packages/nbconvert/filters/highlight.py:147: UserWarning: No lexer found for language 'sas'. Treating as plain text.
+  warn("No lexer found for language %r. Treating as plain text." % language)
+[I 19:39:31.067 LabApp] Starting buffering for 511a8c6e-a413-48ce-b020-f4060cfd9636:ec621f4d-4b71-4eba-bb9c-b8476063ca57
