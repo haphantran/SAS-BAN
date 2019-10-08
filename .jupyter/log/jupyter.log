@@ -1,56 +1,115 @@
-[W 14:14:04.450 LabApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
-[I 14:14:04.517 LabApp] JupyterLab extension loaded from /usr/lib64/python3.5/site-packages/jupyterlab
-[I 14:14:04.517 LabApp] JupyterLab application directory is /usr/share/jupyter/lab
-[W 14:14:04.531 LabApp] JupyterLab server extension not enabled, manually loading...
-[I 14:14:04.558 LabApp] JupyterLab extension loaded from /usr/lib64/python3.5/site-packages/jupyterlab
-[I 14:14:04.559 LabApp] JupyterLab application directory is /usr/share/jupyter/lab
-[I 14:14:04.563 LabApp] Serving notebooks from local directory: /folders/myfolders
-[I 14:14:04.564 LabApp] The Jupyter Notebook is running at:
-[I 14:14:04.565 LabApp] http://(localhost.localdomain or 127.0.0.1):8890/jupyter/
-[I 14:14:04.566 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
-[I 14:18:17.588 LabApp] 302 GET /jupyter/ (127.0.0.1) 3.30ms
-[I 14:18:20.403 LabApp] Node v8.9.4
+[W 15:27:44.046 LabApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[I 15:27:44.196 LabApp] JupyterLab extension loaded from /usr/lib64/python3.5/site-packages/jupyterlab
+[I 15:27:44.196 LabApp] JupyterLab application directory is /usr/share/jupyter/lab
+[W 15:27:44.238 LabApp] JupyterLab server extension not enabled, manually loading...
+[I 15:27:44.314 LabApp] JupyterLab extension loaded from /usr/lib64/python3.5/site-packages/jupyterlab
+[I 15:27:44.321 LabApp] JupyterLab application directory is /usr/share/jupyter/lab
+[I 15:27:44.326 LabApp] Serving notebooks from local directory: /folders/myfolders
+[I 15:27:44.328 LabApp] The Jupyter Notebook is running at:
+[I 15:27:44.332 LabApp] http://(localhost.localdomain or 127.0.0.1):8890/jupyter/
+[I 15:27:44.333 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 15:29:06.999 LabApp] 302 GET /jupyter/ (127.0.0.1) 4.24ms
+[I 15:29:09.997 LabApp] Node v8.9.4
     
-[I 14:18:22.479 LabApp] Build is up to date
-[I 14:18:27.250 LabApp] Kernel started: b2721103-d637-4ce0-9762-efaa7b07909d
-[I 14:18:36.441 LabApp] Adapting to protocol v5.1 for kernel b2721103-d637-4ce0-9762-efaa7b07909d
-[I 14:18:36.473 LabApp] Adapting to protocol v5.1 for kernel b2721103-d637-4ce0-9762-efaa7b07909d
-[I 14:18:36.545 LabApp] Adapting to protocol v5.1 for kernel b2721103-d637-4ce0-9762-efaa7b07909d
-[W 14:18:55.111 LabApp] Notebook ban110/weekly_activity/Chapter4_DataCleaningTechniquesforNumericData(1).ipynb is not trusted
-[I 14:18:56.793 LabApp] Kernel started: 0d620203-63a8-40f1-b1b6-2fb92b466cdd
-[I 14:19:07.492 LabApp] Adapting to protocol v5.1 for kernel 0d620203-63a8-40f1-b1b6-2fb92b466cdd
-[W 14:20:42.217 LabApp] Notebook ban110/weekly_activity/Chapter17_TransformationsofCategoricalVariables.ipynb is not trusted
-[I 14:20:44.139 LabApp] Kernel started: 946b46a7-4881-46f5-81fa-2544f95e28e4
-[I 14:20:44.425 LabApp] Kernel started: b7c65ec5-88ea-43cb-a12e-223767005ffa
-[I 14:20:55.793 LabApp] Adapting to protocol v5.1 for kernel 946b46a7-4881-46f5-81fa-2544f95e28e4
-[I 14:20:55.854 LabApp] Adapting to protocol v5.1 for kernel b7c65ec5-88ea-43cb-a12e-223767005ffa
-[W 14:21:28.574 LabApp] Notebook ban110/weekly_activity/Chapter17_TransformationsofCategoricalVariables.ipynb is not trusted
-[I 14:21:30.961 LabApp] Adapting to protocol v5.1 for kernel b7c65ec5-88ea-43cb-a12e-223767005ffa
-[I 14:22:56.924 LabApp] Saving file at /ban110/weekly_activity/Chapter4_DataCleaningTechniquesforNumericData(1).ipynb
-[W 14:22:56.929 LabApp] Notebook ban110/weekly_activity/Chapter4_DataCleaningTechniquesforNumericData(1).ipynb is not trusted
-[I 14:24:57.590 LabApp] Saving file at /ban110/weekly_activity/Chapter4_DataCleaningTechniquesforNumericData(1).ipynb
-[W 14:24:57.594 LabApp] Notebook ban110/weekly_activity/Chapter4_DataCleaningTechniquesforNumericData(1).ipynb is not trusted
-[I 14:37:01.921 LabApp] Saving file at /ban110/weekly_activity/Chapter4_DataCleaningTechniquesforNumericData(1).ipynb
-[W 14:37:01.923 LabApp] Notebook ban110/weekly_activity/Chapter4_DataCleaningTechniquesforNumericData(1).ipynb is not trusted
-[I 14:39:02.632 LabApp] Saving file at /ban110/weekly_activity/Chapter4_DataCleaningTechniquesforNumericData(1).ipynb
-[W 14:39:02.635 LabApp] Notebook ban110/weekly_activity/Chapter4_DataCleaningTechniquesforNumericData(1).ipynb is not trusted
-[I 14:52:55.338 LabApp] Adapting to protocol v5.1 for kernel 946b46a7-4881-46f5-81fa-2544f95e28e4
-[W 14:53:41.905 LabApp] Notebook ban110/weekly_activity/Chapter4_DataCleaningTechniquesforNumericData(1).ipynb is not trusted
-[I 14:53:44.130 LabApp] Adapting to protocol v5.1 for kernel 0d620203-63a8-40f1-b1b6-2fb92b466cdd
-[I 15:02:54.751 LabApp] Saving file at /ban110/weekly_activity/Chapter16_TransformationsofInterval-ScaledVariables.ipynb
-[I 15:04:55.584 LabApp] Saving file at /ban110/weekly_activity/Chapter16_TransformationsofInterval-ScaledVariables.ipynb
-[I 15:14:57.776 LabApp] Saving file at /ban110/weekly_activity/Chapter16_TransformationsofInterval-ScaledVariables.ipynb
-[I 15:32:59.834 LabApp] Saving file at /ban110/weekly_activity/Chapter16_TransformationsofInterval-ScaledVariables.ipynb
-[I 15:35:00.653 LabApp] Saving file at /ban110/weekly_activity/Chapter16_TransformationsofInterval-ScaledVariables.ipynb
-[I 15:37:01.453 LabApp] Saving file at /ban110/weekly_activity/Chapter16_TransformationsofInterval-ScaledVariables.ipynb
-[I 15:39:02.231 LabApp] Saving file at /ban110/weekly_activity/Chapter16_TransformationsofInterval-ScaledVariables.ipynb
-[I 15:51:59.478 LabApp] Saving file at /ban110/weekly_activity/Chapter16_TransformationsofInterval-ScaledVariables.ipynb
-/usr/lib64/python3.5/site-packages/nbconvert/filters/highlight.py:147: UserWarning: No lexer found for language 'sas'. Treating as plain text.
-  warn("No lexer found for language %r. Treating as plain text." % language)
-[I 16:33:53.777 LabApp] Saving file at /ban110/weekly_activity/Chapter4_DataCleaningTechniquesforNumericData(1).ipynb
-[W 16:33:53.791 LabApp] Notebook ban110/weekly_activity/Chapter4_DataCleaningTechniquesforNumericData(1).ipynb is not trusted
-[I 16:35:54.332 LabApp] Saving file at /ban110/weekly_activity/Chapter4_DataCleaningTechniquesforNumericData(1).ipynb
-[W 16:35:54.334 LabApp] Notebook ban110/weekly_activity/Chapter4_DataCleaningTechniquesforNumericData(1).ipynb is not trusted
-[I 17:48:51.431 LabApp] Saving file at /ban110/weekly_activity/Chapter4_DataCleaningTechniquesforNumericData(1).ipynb
-[W 17:48:51.434 LabApp] Notebook ban110/weekly_activity/Chapter4_DataCleaningTechniquesforNumericData(1).ipynb is not trusted
-[I 17:48:54.547 LabApp] Saving file at /ban110/weekly_activity/Chapter16_TransformationsofInterval-ScaledVariables.ipynb
+[I 15:29:12.710 LabApp] Build is up to date
+[W 15:29:14.247 LabApp] Notebook ban110/weekly_activity/Chapter4_DataCleaningTechniquesforNumericData(1).ipynb is not trusted
+[I 15:29:19.977 LabApp] Kernel started: d95c1962-9baa-4e8d-a5f1-eafa8d77059e
+[I 15:29:20.277 LabApp] Kernel started: 3cff3020-d4fe-4c84-883e-29f7b7288067
+[I 15:29:31.817 LabApp] Adapting to protocol v5.1 for kernel d95c1962-9baa-4e8d-a5f1-eafa8d77059e
+[I 15:29:31.853 LabApp] Adapting to protocol v5.1 for kernel d95c1962-9baa-4e8d-a5f1-eafa8d77059e
+[I 15:29:31.890 LabApp] Adapting to protocol v5.1 for kernel d95c1962-9baa-4e8d-a5f1-eafa8d77059e
+[I 15:29:32.078 LabApp] Adapting to protocol v5.1 for kernel 3cff3020-d4fe-4c84-883e-29f7b7288067
+[I 15:29:32.112 LabApp] Adapting to protocol v5.1 for kernel 3cff3020-d4fe-4c84-883e-29f7b7288067
+[I 15:29:32.164 LabApp] Adapting to protocol v5.1 for kernel 3cff3020-d4fe-4c84-883e-29f7b7288067
+[W 15:29:50.445 LabApp] Notebook Assignments/Assignment3_NumAttr_Tran.ipynb is not trusted
+[I 15:29:52.204 LabApp] Kernel started: 511a8c6e-a413-48ce-b020-f4060cfd9636
+[I 15:30:01.183 LabApp] Adapting to protocol v5.1 for kernel 511a8c6e-a413-48ce-b020-f4060cfd9636
+[W 15:48:13.777 LabApp] Notebook ban110/weekly_activity/Chapter4_DataCleaningTechniquesforNumericData(1).ipynb is not trusted
+[I 15:48:15.936 LabApp] Adapting to protocol v5.1 for kernel d95c1962-9baa-4e8d-a5f1-eafa8d77059e
+[I 15:49:08.994 LabApp] Node v8.9.4
+    
+[I 15:49:10.005 LabApp] Adapting to protocol v5.1 for kernel 511a8c6e-a413-48ce-b020-f4060cfd9636
+[I 15:49:10.007 LabApp] Build is up to date
+[W 15:49:10.016 LabApp] 404 GET /jupyter/lab/api/workspaces/jupyter/lab/workspaces/ipad_ws?1570549744567 (127.0.0.1): Workspace 'jupyter/lab/workspaces/ipad_ws' ('jupyterlabworkspacesipad_ws-60a1') not found
+[W 15:49:10.017 LabApp] Workspace 'jupyter/lab/workspaces/ipad_ws' ('jupyterlabworkspacesipad_ws-60a1') not found
+[W 15:49:10.021 LabApp] 404 GET /jupyter/lab/api/workspaces/jupyter/lab/workspaces/ipad_ws?1570549744567 (127.0.0.1) 9.88ms referer=http://localhost:10080/jupyter/lab/workspaces/ipad_ws
+[W 15:49:21.870 LabApp] Notebook ban110/weekly_activity/Chapter4_DataCleaningTechniquesforNumericData(1).ipynb is not trusted
+[I 15:49:24.706 LabApp] Adapting to protocol v5.1 for kernel d95c1962-9baa-4e8d-a5f1-eafa8d77059e
+[I 15:49:51.060 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+[W 15:49:51.065 LabApp] Notebook Assignments/Assignment3_NumAttr_Tran.ipynb is not trusted
+[I 15:51:51.299 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+[W 15:51:51.302 LabApp] Notebook Assignments/Assignment3_NumAttr_Tran.ipynb is not trusted
+[I 15:53:51.792 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+[W 15:53:51.798 LabApp] Notebook Assignments/Assignment3_NumAttr_Tran.ipynb is not trusted
+[I 16:09:55.378 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+[W 16:09:55.381 LabApp] Notebook Assignments/Assignment3_NumAttr_Tran.ipynb is not trusted
+[I 16:11:55.623 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+[W 16:11:55.626 LabApp] Notebook Assignments/Assignment3_NumAttr_Tran.ipynb is not trusted
+[I 16:13:55.928 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+[W 16:13:55.931 LabApp] Notebook Assignments/Assignment3_NumAttr_Tran.ipynb is not trusted
+[I 16:15:56.206 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+[W 16:15:56.209 LabApp] Notebook Assignments/Assignment3_NumAttr_Tran.ipynb is not trusted
+[I 16:25:57.999 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+[W 16:25:58.002 LabApp] Notebook Assignments/Assignment3_NumAttr_Tran.ipynb is not trusted
+[I 16:27:58.259 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+[W 16:27:58.263 LabApp] Notebook Assignments/Assignment3_NumAttr_Tran.ipynb is not trusted
+[I 16:29:58.561 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+[W 16:29:58.564 LabApp] Notebook Assignments/Assignment3_NumAttr_Tran.ipynb is not trusted
+[I 16:31:58.825 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+[W 16:31:58.828 LabApp] Notebook Assignments/Assignment3_NumAttr_Tran.ipynb is not trusted
+[I 16:33:59.169 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+[W 16:33:59.174 LabApp] Notebook Assignments/Assignment3_NumAttr_Tran.ipynb is not trusted
+[I 16:37:59.668 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+[W 16:37:59.672 LabApp] Notebook Assignments/Assignment3_NumAttr_Tran.ipynb is not trusted
+[I 16:39:59.957 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+[W 16:39:59.960 LabApp] Notebook Assignments/Assignment3_NumAttr_Tran.ipynb is not trusted
+[I 16:42:00.249 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+[W 16:42:00.252 LabApp] Notebook Assignments/Assignment3_NumAttr_Tran.ipynb is not trusted
+[I 16:44:00.599 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+[W 16:44:00.605 LabApp] Notebook Assignments/Assignment3_NumAttr_Tran.ipynb is not trusted
+[I 16:48:01.414 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+[W 16:48:01.418 LabApp] Notebook Assignments/Assignment3_NumAttr_Tran.ipynb is not trusted
+[I 16:50:01.819 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+[W 16:50:01.823 LabApp] Notebook Assignments/Assignment3_NumAttr_Tran.ipynb is not trusted
+[I 16:51:42.944 LabApp] Adapting to protocol v5.1 for kernel 3cff3020-d4fe-4c84-883e-29f7b7288067
+[I 16:52:02.166 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+[W 16:52:02.170 LabApp] Notebook Assignments/Assignment3_NumAttr_Tran.ipynb is not trusted
+[I 16:56:02.494 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+[W 16:56:02.497 LabApp] Notebook Assignments/Assignment3_NumAttr_Tran.ipynb is not trusted
+[I 16:58:02.846 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+[W 16:58:02.849 LabApp] Notebook Assignments/Assignment3_NumAttr_Tran.ipynb is not trusted
+[I 17:00:06.538 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+[W 17:00:06.543 LabApp] Notebook Assignments/Assignment3_NumAttr_Tran.ipynb is not trusted
+[I 17:00:45.119 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+[W 17:00:45.123 LabApp] Notebook Assignments/Assignment3_NumAttr_Tran.ipynb is not trusted
+[I 17:00:47.278 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+[W 17:00:47.282 LabApp] Notebook Assignments/Assignment3_NumAttr_Tran.ipynb is not trusted
+[I 17:00:49.236 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+[W 17:00:49.250 LabApp] Notebook Assignments/Assignment3_NumAttr_Tran.ipynb is not trusted
+[I 17:02:50.736 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+[W 17:02:50.740 LabApp] Notebook Assignments/Assignment3_NumAttr_Tran.ipynb is not trusted
+[I 17:04:51.271 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+[W 17:04:51.274 LabApp] Notebook Assignments/Assignment3_NumAttr_Tran.ipynb is not trusted
+[I 17:06:51.650 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+[W 17:06:51.654 LabApp] Notebook Assignments/Assignment3_NumAttr_Tran.ipynb is not trusted
+[I 18:55:06.570 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+[W 18:55:06.573 LabApp] Notebook Assignments/Assignment3_NumAttr_Tran.ipynb is not trusted
+[I 18:57:07.009 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+[W 18:57:07.012 LabApp] Notebook Assignments/Assignment3_NumAttr_Tran.ipynb is not trusted
+[I 18:59:07.542 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+[I 19:01:07.993 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+[I 19:03:08.514 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+[I 19:05:09.595 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+[I 19:11:10.704 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+[I 19:13:11.716 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+[I 19:15:12.625 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+[I 19:17:13.141 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+[I 19:19:13.948 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+[I 19:21:14.633 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+[I 19:23:15.167 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+[I 19:25:15.708 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+[I 19:27:16.295 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+[I 19:29:16.938 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+[I 19:31:17.567 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+[I 19:33:18.303 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
+[I 19:35:07.523 LabApp] Saving file at /Assignments/Assignment3_NumAttr_Tran.ipynb
