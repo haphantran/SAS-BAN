@@ -80,3 +80,29 @@
 [W 16:19:30.104 LabApp] Notebook ban110/weekly_activity/chapter12_correctingerrors.ipynb is not trusted
 [I 16:19:56.433 LabApp] Saving file at /ban110/weekly_activity/chapter12_correctingerrors.ipynb
 [W 16:19:56.436 LabApp] Notebook ban110/weekly_activity/chapter12_correctingerrors.ipynb is not trusted
+[W 16:21:03.653 LabApp] Notebook ban110/weekly_activity/Chapter17_TransformationsofCategoricalVariables.ipynb is not trusted
+/usr/lib64/python3.5/site-packages/nbconvert/filters/highlight.py:147: UserWarning: No lexer found for language 'sas'. Treating as plain text.
+  warn("No lexer found for language %r. Treating as plain text." % language)
+[W 16:21:12.710 LabApp] Notebook ban110/weekly_activity/chapter12_correctingerrors.ipynb is not trusted
+[I 16:21:15.241 LabApp] Adapting to protocol v5.1 for kernel b9c61818-b3a1-427c-95c3-c3799a75b8e2
+[W 16:21:19.756 LabApp] Notebook ban110/weekly_activity/chapter12_correctingerrors.ipynb is not trusted
+[I 17:06:31.827 LabApp] Starting buffering for 6936e1bb-2a00-4fa0-826a-73e68f777f4c:9b7b0e4f-dc15-414c-be24-355273a75dbc
+[I 17:06:31.845 LabApp] Starting buffering for a1a2486d-d85a-4a43-b34e-e0d370057a18:8ea4aec8-34ff-4ce0-9214-b6f9bf554c17
+[I 17:06:31.846 LabApp] Starting buffering for 32c38df2-5352-4e96-b995-751959850913:0697e82f-0d43-4be9-8400-882f9e57b4aa
+[I 17:06:31.849 LabApp] Starting buffering for b9c61818-b3a1-427c-95c3-c3799a75b8e2:24c9386c-1fc0-4c4a-9101-b1cf68c9a086
+[I 17:17:05.574 LabApp] 302 GET /jupyter/ (127.0.0.1) 1.04ms
+[I 17:17:08.822 LabApp] Node v8.9.4
+    
+[I 17:17:09.869 LabApp] Adapting to protocol v5.1 for kernel 32c38df2-5352-4e96-b995-751959850913
+[I 17:17:09.876 LabApp] Build is up to date
+[W 17:17:10.659 LabApp] Notebook ban110/weekly_activity/chapter12_correctingerrors.ipynb is not trusted
+[I 17:17:10.852 LabApp] Starting buffering for 32c38df2-5352-4e96-b995-751959850913:2797915c-8c99-40f0-9027-a059209cf182
+[I 17:17:13.388 LabApp] Adapting to protocol v5.1 for kernel b9c61818-b3a1-427c-95c3-c3799a75b8e2
+[I 17:19:12.245 LabApp] Saving file at /ban110/weekly_activity/chapter12_correctingerrors.ipynb
+[W 17:19:12.249 LabApp] Notebook ban110/weekly_activity/chapter12_correctingerrors.ipynb is not trusted
+[I 17:19:28.101 LabApp] Starting buffering for b9c61818-b3a1-427c-95c3-c3799a75b8e2:de0580fd-49f0-4e37-bd55-821be16345ae
+[I 17:19:36.153 LabApp] Adapting to protocol v5.1 for kernel b9c61818-b3a1-427c-95c3-c3799a75b8e2
+[I 17:19:36.157 LabApp] Restoring connection for b9c61818-b3a1-427c-95c3-c3799a75b8e2:de0580fd-49f0-4e37-bd55-821be16345ae
+[I 17:21:26.026 LabApp] Saving file at /ban110/weekly_activity/chapter12_correctingerrors.ipynb
+[W 17:21:26.030 LabApp] Notebook ban110/weekly_activity/chapter12_correctingerrors.ipynb is not trusted
+[I 17:24:17.043 LabApp] Starting buffering for b9c61818-b3a1-427c-95c3-c3799a75b8e2:de0580fd-49f0-4e37-bd55-821be16345ae
