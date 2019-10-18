@@ -6,24 +6,22 @@
 *  
 *	Name: HaPhan Tran Student ID: 122 699 176 Date: Oct 15, 2019 
 * 
-*   QUESTION No: 3
+*   QUESTION No: 1
 ***********************************************************************************************/
 
-*define the library mylib;
-libname mylib "/folders/myfolders/ban130/assignment3/tmp";
-*option to define where to search the format;
-options fmtsearch=(mylib); 
-
-*format with lib option to save the format to the library mylib;
-proc format lib = mylib;
+*use procedure format to create approriate format;
+proc format;
+	*format for displaying age group;
 	value age
 		0-30 = "0-30"
 		31-50 = "31-50"
 		51-70 = "51-70"
 		71-high = "71+";
+	*format for displaying party in full not in abbreviation;
 	value $party
 		"D" = "Democrat"
 		"R" = "Republican";
+	*format for displaying the answer to all the questions in the interview;
 	value $likert
 		"1" = "Strongly Disagree"
 		"2" = "Disagree"
@@ -35,7 +33,6 @@ run;
 *Data step to read the data in with label for questions;
 data Voter; 
 	input Age Party : $1. (Ques1-Ques4)($1. + 1);
-	*label for questions;
 	label 
 		Ques1 = "The president is doing a good job"
 		Ques2 = "Congress is doing a good job"
@@ -54,8 +51,10 @@ datalines;
 ;
 run;
 
-
-title "Format Definitions in the mylib Library";
-proc format library=mylib fmtlib;
+title "The voter dataset";
+proc print data = voter label;
 run;
-	
+
+Title "The Frequency Distribution of the Voter Dataset";
+proc freq data=voter;
+run;

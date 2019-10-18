@@ -1,0 +1,48 @@
+ 
+ 1          OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+ NOTE: ODS statements in the SAS Studio environment may disable some output features.
+ 73         
+ 74         /**********************************************************************************************
+ 75         *  BAN130 – Assignment 3
+ 76         *  I declare that this assignment is my own work in accordance with Seneca  Academic Policy.
+ 77         *  No part of this assignment has been copied manually or electronically from any other source
+ 78         *  (including web sites) or distributed to other students.
+ 79         *
+ 80         *Name: HaPhan Tran Student ID: 122 699 176 Date: Oct 15, 2019
+ 81         *
+ 82         *   QUESTION No: 5
+ 83         ***********************************************************************************************/
+ 84         
+ 85         *create new dataset call Soccer;
+ 86         data Soccer;
+ 87         input Team : $20. Wins Losses;
+ 88         datalines;
+ 
+ NOTE: The data set WORK.SOCCER has 4 observations and 3 variables.
+ NOTE: DATA statement used (Total process time):
+       real time           0.00 seconds
+       cpu time            0.00 seconds
+       
+ 
+ 93         ;
+ 94         
+ 95         options nodate nonumber;
+ 96         title;
+ 97         ods listing close;
+ 98         *print data to csv file;
+ 99         ods csv file='/folders/myfolders/ban130/assignment3/submit/Soccer.csv';
+ NOTE: Writing CSV Body file: /folders/myfolders/ban130/assignment3/submit/Soccer.csv
+ 100        proc print data=Soccer noobs;
+ 101        run;
+ 
+ NOTE: There were 4 observations read from the data set WORK.SOCCER.
+ NOTE: PROCEDURE PRINT used (Total process time):
+       real time           0.09 seconds
+       cpu time            0.09 seconds
+       
+ 
+ 102        ods csv close;
+ 103        ods listing;
+ 104        
+ 105        OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+ 117        
