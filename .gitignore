@@ -1,3 +1,6 @@
 
 .jupyter/log/jupyter.log
 *.log
+.jupyter/log/jupyter.log
+.rnd
+.sasstudio/preferences/editTabContentPane.SWE.lastTabs.key

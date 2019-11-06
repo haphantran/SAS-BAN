@@ -6,42 +6,37 @@
 *  
 *	Name: HaPhan Tran Student ID: 122 699 176 Date: Oct 15, 2019 
 * 
-*   QUESTION No: 3
+*   QUESTION No: 2
 ***********************************************************************************************/
 
-*define the library mylib;
-libname mylib "/folders/myfolders/ban130/assignment3/tmp";
-*option to define where to search the format;
-options fmtsearch=(mylib); 
-
-*format with lib option to save the format to the library mylib;
-proc format lib = mylib;
+*use procedure format to create approriate format;
+proc format;
+	value $likert_new
+		"1","2" = "Generally Disagree"
+		"3" = "No Opinion"
+		"4","5" = "Generally Agree";
+	*format for displaying party in full not in abbreviation;
+	value $party
+		"D" = "Democrat"
+		"R" = "Republican";
+	*format for displaying age group;
 	value age
 		0-30 = "0-30"
 		31-50 = "31-50"
 		51-70 = "51-70"
 		71-high = "71+";
-	value $party
-		"D" = "Democrat"
-		"R" = "Republican";
-	value $likert
-		"1" = "Strongly Disagree"
-		"2" = "Disagree"
-		"3" = "No Opinion"
-		"4" = "Agree"
-		"5" = "Strongly Agree";
 run;
 
+
 *Data step to read the data in with label for questions;
-data Voter; 
+data Voter2; 
 	input Age Party : $1. (Ques1-Ques4)($1. + 1);
-	*label for questions;
 	label 
 		Ques1 = "The president is doing a good job"
 		Ques2 = "Congress is doing a good job"
 		Ques3 = "Taxes are too high"
 		Ques4 = "Government should cut spending";	
-	format Ques1-Ques4 $Likert. age age. party $party.;
+	format Ques1-Ques4 $Likert_new. age age. party $party.;
 *datalines where all the data sit;
 datalines;
 23 D 1 1 2 2
@@ -55,7 +50,7 @@ datalines;
 run;
 
 
-title "Format Definitions in the mylib Library";
-proc format library=mylib fmtlib;
+title "The frequency distribution for voter dataset with new format for questions";
+proc freq data=voter2;
 run;
-	
+

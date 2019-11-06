@@ -1,0 +1,73 @@
+ 
+ 1          OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+ 72         
+ 73         /**********************************************************************************************
+ 74         *  BAN130 – Assignment 3
+ 75         *  I declare that this assignment is my own work in accordance with Seneca  Academic Policy.
+ 76         *  No part of this assignment has been copied manually or electronically from any other source
+ 77         *  (including web sites) or distributed to other students.
+ 78         *
+ 79         *Name: HaPhan Tran Student ID: 122 699 176 Date: Oct 15, 2019
+ 80         *
+ 81         *   QUESTION No: 4
+ 82         ***********************************************************************************************/
+ 83         
+ 84         
+ 85         *define the library myfmts;
+ 86         libname myfmts "/folders/myfolders/ban130/assignment3/q4format";
+ NOTE: Libref MYFMTS was successfully assigned as follows: 
+       Engine:        V9 
+       Physical Name: /folders/myfolders/ban130/assignment3/q4format
+ 87         
+ 88         *option to search format in the myfmts library;
+ 89         options fmtsearch=(myfmts);
+ 90         
+ 91         *format with lib option to save the format to the library myfmts;
+ 92         proc format lib = myfmts;
+ 93         
+ 93       !  value yesno
+ 94         1 = "Yes"
+ 95         0 = "No";
+ NOTE: Format YESNO is already on the library MYFMTS.FORMATS.
+ NOTE: Format YESNO has been written to MYFMTS.FORMATS.
+ 96         
+ 96       !  value $Yesno
+ 97         "Y" = "Yes"
+ 98         "N" = "No";
+ NOTE: Format $YESNO is already on the library MYFMTS.FORMATS.
+ NOTE: Format $YESNO has been written to MYFMTS.FORMATS.
+ 99         
+ 99       !  value $Gender
+ 100        "M" = "Male"
+ 101        "F" = "Female";
+ NOTE: Format $GENDER is already on the library MYFMTS.FORMATS.
+ NOTE: Format $GENDER has been written to MYFMTS.FORMATS.
+ 102        
+ 102      !  value Age20yr
+ 103        low-20 = 1
+ 104        21-40 = 2
+ 105        41-60 = 3
+ 106        61-80 = 4
+ 107        81-high = 5;
+ NOTE: Format AGE20YR is already on the library MYFMTS.FORMATS.
+ NOTE: Format AGE20YR has been written to MYFMTS.FORMATS.
+ 108        run;
+ 
+ NOTE: PROCEDURE FORMAT used (Total process time):
+       real time           0.06 seconds
+       cpu time            0.02 seconds
+       
+ 
+ 109        
+ 110        title "Format Definitions in the mylib Library";
+ 111        proc format library=myfmts fmtlib;
+ 112        run;
+ 
+ NOTE: PROCEDURE FORMAT used (Total process time):
+       real time           0.19 seconds
+       cpu time            0.18 seconds
+       
+ 
+ 113        
+ 114        OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+ 126        
