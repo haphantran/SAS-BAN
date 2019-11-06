@@ -1,54 +1,41 @@
-[W 04:10:17.741 LabApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
-[I 04:10:17.758 LabApp] JupyterLab extension loaded from /usr/lib64/python3.5/site-packages/jupyterlab
-[I 04:10:17.758 LabApp] JupyterLab application directory is /usr/share/jupyter/lab
-[W 04:10:17.761 LabApp] JupyterLab server extension not enabled, manually loading...
-[I 04:10:17.768 LabApp] JupyterLab extension loaded from /usr/lib64/python3.5/site-packages/jupyterlab
-[I 04:10:17.768 LabApp] JupyterLab application directory is /usr/share/jupyter/lab
-[I 04:10:17.769 LabApp] Serving notebooks from local directory: /folders/myfolders
-[I 04:10:17.769 LabApp] The Jupyter Notebook is running at:
-[I 04:10:17.769 LabApp] http://(localhost.localdomain or 127.0.0.1):8890/jupyter/
-[I 04:10:17.769 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
-[I 04:13:58.964 LabApp] 302 GET /jupyter/ (127.0.0.1) 0.73ms
-[I 04:13:59.780 LabApp] Node v8.9.4
+[W 15:02:20.495 LabApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[I 15:02:20.509 LabApp] JupyterLab extension loaded from /usr/lib64/python3.5/site-packages/jupyterlab
+[I 15:02:20.510 LabApp] JupyterLab application directory is /usr/share/jupyter/lab
+[W 15:02:20.512 LabApp] JupyterLab server extension not enabled, manually loading...
+[I 15:02:20.519 LabApp] JupyterLab extension loaded from /usr/lib64/python3.5/site-packages/jupyterlab
+[I 15:02:20.519 LabApp] JupyterLab application directory is /usr/share/jupyter/lab
+[I 15:02:20.519 LabApp] Serving notebooks from local directory: /folders/myfolders
+[I 15:02:20.520 LabApp] The Jupyter Notebook is running at:
+[I 15:02:20.520 LabApp] http://(localhost.localdomain or 127.0.0.1):8890/jupyter/
+[I 15:02:20.520 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 15:09:48.491 LabApp] 302 GET /jupyter/ (127.0.0.1) 0.72ms
+[I 15:09:49.426 LabApp] Node v8.9.4
     
-[I 04:13:59.860 LabApp] Build is up to date
-[W 04:14:00.163 LabApp] Notebook ban110/weekly_activity/chapter12_correctingerrors.ipynb is not trusted
-[I 04:14:01.282 LabApp] Kernel started: 8ad629d4-350d-45c0-9a24-760bbbb9da96
-[I 04:14:03.548 LabApp] Adapting to protocol v5.1 for kernel 8ad629d4-350d-45c0-9a24-760bbbb9da96
-[I 04:14:03.567 LabApp] Adapting to protocol v5.1 for kernel 8ad629d4-350d-45c0-9a24-760bbbb9da96
-[W 04:14:06.760 LabApp] Notebook ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb is not trusted
-[W 04:14:07.896 LabApp] 404 GET /jupyter/files/ban110/weekly_activity/img/3-sigma-rules.png?1573013647838 (127.0.0.1) 49.63ms referer=http://localhost:10080/jupyter/lab?
-[I 04:14:08.506 LabApp] Kernel started: fecfbb50-df32-4600-8ab3-5ff8fc945421
-[I 04:14:10.350 LabApp] Adapting to protocol v5.1 for kernel fecfbb50-df32-4600-8ab3-5ff8fc945421
-[I 04:20:08.563 LabApp] Saving file at /ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb
-[W 04:20:08.564 LabApp] Notebook ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb is not trusted
-[W 04:20:14.010 LabApp] Notebook ban110/weekly_activity/Chapter4_DataCleaningTechniquesforNumericData(1).ipynb is not trusted
-[I 04:20:15.089 LabApp] Kernel started: 8d160bda-24d7-4772-8f52-3df6c90d9181
-[I 04:20:16.902 LabApp] Adapting to protocol v5.1 for kernel 8d160bda-24d7-4772-8f52-3df6c90d9181
-[I 04:22:08.793 LabApp] Saving file at /ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb
-[W 04:22:08.794 LabApp] Notebook ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb is not trusted
-[I 04:24:09.014 LabApp] Saving file at /ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb
-[W 04:24:09.017 LabApp] Notebook ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb is not trusted
-[I 04:30:09.273 LabApp] Saving file at /ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb
-[W 04:30:09.274 LabApp] Notebook ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb is not trusted
-[I 04:32:09.482 LabApp] Saving file at /ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb
-[W 04:32:09.482 LabApp] Notebook ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb is not trusted
-[I 04:34:10.559 LabApp] Saving file at /ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb
-[W 04:34:10.560 LabApp] Notebook ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb is not trusted
-[I 04:36:10.790 LabApp] Saving file at /ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb
-[W 04:36:10.791 LabApp] Notebook ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb is not trusted
-[I 04:38:11.033 LabApp] Saving file at /ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb
-[W 04:38:11.033 LabApp] Notebook ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb is not trusted
-[W 05:01:00.768 LabApp] Notebook ban110/weekly_activity/Chapter17_TransformationsofCategoricalVariables.ipynb is not trusted
-[I 05:01:02.065 LabApp] Kernel started: aab3bd61-303b-49eb-b167-7b5dfbad16c0
-[W 05:01:04.089 LabApp] Notebook ban110/weekly_activity/Chapter16_TransformationsofInterval-ScaledVariables.ipynb is not trusted
-[I 05:01:04.150 LabApp] Adapting to protocol v5.1 for kernel aab3bd61-303b-49eb-b167-7b5dfbad16c0
-[I 05:01:05.937 LabApp] Kernel started: b69b90c7-d18c-46b8-a19b-65ee239564a4
-[I 05:01:07.912 LabApp] Adapting to protocol v5.1 for kernel b69b90c7-d18c-46b8-a19b-65ee239564a4
-[I 05:02:11.564 LabApp] Saving file at /ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb
-[W 05:02:11.565 LabApp] Notebook ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb is not trusted
-[I 05:04:28.855 LabApp] Starting buffering for b69b90c7-d18c-46b8-a19b-65ee239564a4:0ab98530-5013-460a-b04b-1e447260b7b0
-[I 05:04:28.856 LabApp] Starting buffering for fecfbb50-df32-4600-8ab3-5ff8fc945421:d57172cd-c8c1-4978-89e9-ceb5aabeeec8
-[I 05:04:28.856 LabApp] Starting buffering for aab3bd61-303b-49eb-b167-7b5dfbad16c0:d19ef332-528a-461d-b7db-033da331b105
-[I 05:04:28.857 LabApp] Starting buffering for 8d160bda-24d7-4772-8f52-3df6c90d9181:0cf18572-c272-4a86-b8df-e433b38a521a
-[I 05:04:28.858 LabApp] Starting buffering for 8ad629d4-350d-45c0-9a24-760bbbb9da96:8a9d3fc9-7043-4202-b715-53a476ac09f1
+[I 15:09:49.589 LabApp] Build is up to date
+[W 15:10:00.635 LabApp] Notebook ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb is not trusted
+[W 15:10:01.836 LabApp] 404 GET /jupyter/files/ban110/weekly_activity/img/3-sigma-rules.png?1573053001766 (127.0.0.1) 63.40ms referer=http://localhost:10080/jupyter/lab?
+[I 15:10:02.518 LabApp] Kernel started: e80ecbcd-9054-4548-ab0f-f7ecc24d7c3a
+[I 15:10:04.713 LabApp] Adapting to protocol v5.1 for kernel e80ecbcd-9054-4548-ab0f-f7ecc24d7c3a
+[I 15:10:04.730 LabApp] Adapting to protocol v5.1 for kernel e80ecbcd-9054-4548-ab0f-f7ecc24d7c3a
+[I 15:22:02.251 LabApp] Saving file at /ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb
+[W 15:22:02.252 LabApp] Notebook ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb is not trusted
+[I 15:34:03.229 LabApp] Saving file at /ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb
+[W 15:34:03.230 LabApp] Notebook ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb is not trusted
+[I 15:40:04.259 LabApp] Saving file at /ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb
+[W 15:40:04.260 LabApp] Notebook ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb is not trusted
+[I 15:58:05.247 LabApp] Saving file at /ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb
+[W 15:58:05.248 LabApp] Notebook ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb is not trusted
+[I 16:00:05.474 LabApp] Saving file at /ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb
+[W 16:00:05.474 LabApp] Notebook ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb is not trusted
+[I 16:02:06.240 LabApp] Saving file at /ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb
+[W 16:02:06.241 LabApp] Notebook ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb is not trusted
+[I 16:06:06.484 LabApp] Saving file at /ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb
+[W 16:06:06.485 LabApp] Notebook ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb is not trusted
+[I 16:08:06.739 LabApp] Saving file at /ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb
+[W 16:08:06.739 LabApp] Notebook ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb is not trusted
+[I 16:12:06.984 LabApp] Saving file at /ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb
+[W 16:12:06.986 LabApp] Notebook ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb is not trusted
+[I 16:14:07.236 LabApp] Saving file at /ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb
+[W 16:14:07.236 LabApp] Notebook ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb is not trusted
+[I 16:14:44.775 LabApp] Saving file at /ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb
+[W 16:14:44.775 LabApp] Notebook ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb is not trusted
