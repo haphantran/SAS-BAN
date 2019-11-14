@@ -1,41 +1,10 @@
-[W 15:02:20.495 LabApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
-[I 15:02:20.509 LabApp] JupyterLab extension loaded from /usr/lib64/python3.5/site-packages/jupyterlab
-[I 15:02:20.510 LabApp] JupyterLab application directory is /usr/share/jupyter/lab
-[W 15:02:20.512 LabApp] JupyterLab server extension not enabled, manually loading...
-[I 15:02:20.519 LabApp] JupyterLab extension loaded from /usr/lib64/python3.5/site-packages/jupyterlab
-[I 15:02:20.519 LabApp] JupyterLab application directory is /usr/share/jupyter/lab
-[I 15:02:20.519 LabApp] Serving notebooks from local directory: /folders/myfolders
-[I 15:02:20.520 LabApp] The Jupyter Notebook is running at:
-[I 15:02:20.520 LabApp] http://(localhost.localdomain or 127.0.0.1):8890/jupyter/
-[I 15:02:20.520 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
-[I 15:09:48.491 LabApp] 302 GET /jupyter/ (127.0.0.1) 0.72ms
-[I 15:09:49.426 LabApp] Node v8.9.4
-    
-[I 15:09:49.589 LabApp] Build is up to date
-[W 15:10:00.635 LabApp] Notebook ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb is not trusted
-[W 15:10:01.836 LabApp] 404 GET /jupyter/files/ban110/weekly_activity/img/3-sigma-rules.png?1573053001766 (127.0.0.1) 63.40ms referer=http://localhost:10080/jupyter/lab?
-[I 15:10:02.518 LabApp] Kernel started: e80ecbcd-9054-4548-ab0f-f7ecc24d7c3a
-[I 15:10:04.713 LabApp] Adapting to protocol v5.1 for kernel e80ecbcd-9054-4548-ab0f-f7ecc24d7c3a
-[I 15:10:04.730 LabApp] Adapting to protocol v5.1 for kernel e80ecbcd-9054-4548-ab0f-f7ecc24d7c3a
-[I 15:22:02.251 LabApp] Saving file at /ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb
-[W 15:22:02.252 LabApp] Notebook ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb is not trusted
-[I 15:34:03.229 LabApp] Saving file at /ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb
-[W 15:34:03.230 LabApp] Notebook ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb is not trusted
-[I 15:40:04.259 LabApp] Saving file at /ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb
-[W 15:40:04.260 LabApp] Notebook ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb is not trusted
-[I 15:58:05.247 LabApp] Saving file at /ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb
-[W 15:58:05.248 LabApp] Notebook ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb is not trusted
-[I 16:00:05.474 LabApp] Saving file at /ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb
-[W 16:00:05.474 LabApp] Notebook ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb is not trusted
-[I 16:02:06.240 LabApp] Saving file at /ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb
-[W 16:02:06.241 LabApp] Notebook ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb is not trusted
-[I 16:06:06.484 LabApp] Saving file at /ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb
-[W 16:06:06.485 LabApp] Notebook ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb is not trusted
-[I 16:08:06.739 LabApp] Saving file at /ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb
-[W 16:08:06.739 LabApp] Notebook ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb is not trusted
-[I 16:12:06.984 LabApp] Saving file at /ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb
-[W 16:12:06.986 LabApp] Notebook ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb is not trusted
-[I 16:14:07.236 LabApp] Saving file at /ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb
-[W 16:14:07.236 LabApp] Notebook ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb is not trusted
-[I 16:14:44.775 LabApp] Saving file at /ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb
-[W 16:14:44.775 LabApp] Notebook ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb is not trusted
+[W 03:30:36.118 LabApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[I 03:30:36.134 LabApp] JupyterLab extension loaded from /usr/lib64/python3.5/site-packages/jupyterlab
+[I 03:30:36.134 LabApp] JupyterLab application directory is /usr/share/jupyter/lab
+[W 03:30:36.136 LabApp] JupyterLab server extension not enabled, manually loading...
+[I 03:30:36.143 LabApp] JupyterLab extension loaded from /usr/lib64/python3.5/site-packages/jupyterlab
+[I 03:30:36.143 LabApp] JupyterLab application directory is /usr/share/jupyter/lab
+[I 03:30:36.144 LabApp] Serving notebooks from local directory: /folders/myfolders
+[I 03:30:36.144 LabApp] The Jupyter Notebook is running at:
+[I 03:30:36.144 LabApp] http://(localhost.localdomain or 127.0.0.1):8890/jupyter/
+[I 03:30:36.144 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).

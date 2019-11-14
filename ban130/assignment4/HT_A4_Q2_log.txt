@@ -1,0 +1,81 @@
+ 
+ 1          OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+ 72         
+ 73         libname mylib '/folders/myfolders/ban130/assignment4/data/';
+ NOTE: Libref MYLIB refers to the same physical library as _TEMP1.
+ NOTE: Libref MYLIB was successfully assigned as follows: 
+       Engine:        V9 
+       Physical Name: /folders/myfolders/ban130/assignment4/data
+ 74         
+ 75         title 'Content of Shoes dataset';
+ 76         proc contents data=mylib.shoes;
+ 77         run;
+ 
+ NOTE: PROCEDURE CONTENTS used (Total process time):
+       real time           0.09 seconds
+       cpu time            0.08 seconds
+       
+ 
+ 78         
+ 79         title 'Content of Shoes_eclipse dataset';
+ 80         proc contents data=mylib.shoes_eclipse;
+ 81         run;
+ 
+ NOTE: PROCEDURE CONTENTS used (Total process time):
+       real time           0.05 seconds
+       cpu time            0.05 seconds
+       
+ 
+ 82         
+ 83         title 'Content of Shoes_tracker dataset';
+ 84         proc contents data=mylib.shoes_tracker;
+ 85         run;
+ 
+ NOTE: PROCEDURE CONTENTS used (Total process time):
+       real time           0.05 seconds
+       cpu time            0.06 seconds
+       
+ 
+ 86         
+ 87         proc append base=mylib.shoes data=mylib.shoes_eclipse force;
+ 88         run;
+ 
+ NOTE: Appending MYLIB.SHOES_ECLIPSE to MYLIB.SHOES.
+ NOTE: There were 14 observations read from the data set MYLIB.SHOES_ECLIPSE.
+ NOTE: 14 observations added.
+ NOTE: The data set MYLIB.SHOES has 24 observations and 5 variables.
+ NOTE: PROCEDURE APPEND used (Total process time):
+       real time           0.02 seconds
+       cpu time            0.01 seconds
+       
+ 
+ 89         
+ 90         proc append base=mylib.shoes data=mylib.shoes_tracker force;
+ 91         run;
+ 
+ NOTE: Appending MYLIB.SHOES_TRACKER to MYLIB.SHOES.
+ WARNING: Variable Product_ID was not found on BASE file. The variable will not be added to the BASE file.
+ WARNING: Variable Supplier_Name was not found on BASE file. The variable will not be added to the BASE file.
+ NOTE: FORCE is specified, so dropping/truncating will occur.
+ NOTE: There were 10 observations read from the data set MYLIB.SHOES_TRACKER.
+ NOTE: 10 observations added.
+ NOTE: The data set MYLIB.SHOES has 34 observations and 5 variables.
+ NOTE: PROCEDURE APPEND used (Total process time):
+       real time           0.01 seconds
+       cpu time            0.01 seconds
+       
+ 
+ 92         
+ 93         proc print data = mylib.shoes;
+ 94         run;
+ 
+ NOTE: There were 34 observations read from the data set MYLIB.SHOES.
+ NOTE: PROCEDURE PRINT used (Total process time):
+       real time           0.06 seconds
+       cpu time            0.05 seconds
+       
+ 
+ 95         
+ 96         
+ 97         OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+ 109        
