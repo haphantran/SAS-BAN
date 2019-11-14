@@ -2,37 +2,43 @@
  1          OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
  72         
  73         libname mylib '/folders/myfolders/ban130/assignment4/data/';
- NOTE: Libref MYLIB refers to the same physical library as _TEMP0.
+ NOTE: Libref MYLIB refers to the same physical library as _TEMP2.
  NOTE: Libref MYLIB was successfully assigned as follows: 
        Engine:        V9 
        Physical Name: /folders/myfolders/ban130/assignment4/data
  74         
  75         data work.bigdonations;
  76         set mylib.employee_donations;
- 77         Total = sum(of Qtr1-qtr4);
- 78         NoDonation = nmiss( of Qtr1-qtr4);
- 79         if total lt 50 or Nodonation ~= 0 then delete;
- 80         run;
+ 77         *calculate total;
+ 78         Total = sum(of Qtr1-qtr4);
+ 79         
+ 80         *count the number of missing value - NoDonation;
+ 81         NoDonation = nmiss( of Qtr1-qtr4);
+ 82         
+ 83         *use if statement to delete observation;
+ 84         if total lt 50 or Nodonation ~= 0 then delete;
+ 85         run;
  
  NOTE: There were 124 observations read from the data set MYLIB.EMPLOYEE_DONATIONS.
  NOTE: The data set WORK.BIGDONATIONS has 50 observations and 9 variables.
  NOTE: DATA statement used (Total process time):
        real time           0.01 seconds
-       cpu time            0.00 seconds
-       
- 
- 81         
- 82         title "listing of BigDonations dataset";
- 83         proc print data = bigdonations;
- 84         var employee_id qtr1-qtr4 total nodonation;
- 85         run;
- 
- NOTE: There were 50 observations read from the data set WORK.BIGDONATIONS.
- NOTE: PROCEDURE PRINT used (Total process time):
-       real time           0.10 seconds
-       cpu time            0.11 seconds
+       cpu time            0.01 seconds
        
  
  86         
- 87         OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
- 99         
+ 87         title "Listing of BigDonations dataset";
+ 88         proc print data = bigdonations;
+ 89         *include required variable;
+ 90         var employee_id qtr1-qtr4 total nodonation;
+ 91         run;
+ 
+ NOTE: There were 50 observations read from the data set WORK.BIGDONATIONS.
+ NOTE: PROCEDURE PRINT used (Total process time):
+       real time           0.12 seconds
+       cpu time            0.12 seconds
+       
+ 
+ 92         
+ 93         OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+ 105        
