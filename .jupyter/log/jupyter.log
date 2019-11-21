@@ -1,10 +1,57 @@
-[W 03:30:36.118 LabApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
-[I 03:30:36.134 LabApp] JupyterLab extension loaded from /usr/lib64/python3.5/site-packages/jupyterlab
-[I 03:30:36.134 LabApp] JupyterLab application directory is /usr/share/jupyter/lab
-[W 03:30:36.136 LabApp] JupyterLab server extension not enabled, manually loading...
-[I 03:30:36.143 LabApp] JupyterLab extension loaded from /usr/lib64/python3.5/site-packages/jupyterlab
-[I 03:30:36.143 LabApp] JupyterLab application directory is /usr/share/jupyter/lab
-[I 03:30:36.144 LabApp] Serving notebooks from local directory: /folders/myfolders
-[I 03:30:36.144 LabApp] The Jupyter Notebook is running at:
-[I 03:30:36.144 LabApp] http://(localhost.localdomain or 127.0.0.1):8890/jupyter/
-[I 03:30:36.144 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 02:14:45.742 LabApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[I 02:14:45.756 LabApp] JupyterLab extension loaded from /usr/lib64/python3.5/site-packages/jupyterlab
+[I 02:14:45.756 LabApp] JupyterLab application directory is /usr/share/jupyter/lab
+[W 02:14:45.758 LabApp] JupyterLab server extension not enabled, manually loading...
+[I 02:14:45.764 LabApp] JupyterLab extension loaded from /usr/lib64/python3.5/site-packages/jupyterlab
+[I 02:14:45.765 LabApp] JupyterLab application directory is /usr/share/jupyter/lab
+[I 02:14:45.765 LabApp] Serving notebooks from local directory: /folders/myfolders
+[I 02:14:45.765 LabApp] The Jupyter Notebook is running at:
+[I 02:14:45.765 LabApp] http://(localhost.localdomain or 127.0.0.1):8890/jupyter/
+[I 02:14:45.765 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 03:05:31.493 LabApp] 302 GET /jupyter/ (127.0.0.1) 0.66ms
+[I 03:05:32.305 LabApp] Node v8.9.4
+    
+[I 03:05:32.378 LabApp] Build is up to date
+[I 03:05:36.037 LabApp] Creating new notebook in /Assignments
+[I 03:05:36.319 LabApp] Kernel started: 5e284334-ed1e-4ed8-a0a4-67eead2d9a66
+[I 03:05:38.488 LabApp] Adapting to protocol v5.1 for kernel 5e284334-ed1e-4ed8-a0a4-67eead2d9a66
+[I 03:05:38.505 LabApp] Adapting to protocol v5.1 for kernel 5e284334-ed1e-4ed8-a0a4-67eead2d9a66
+[I 03:05:47.365 LabApp] Creating new notebook in /ban100
+[I 03:05:47.502 LabApp] Kernel started: a440d8f9-0753-467e-b2d2-08ca71452feb
+[I 03:05:49.374 LabApp] Adapting to protocol v5.1 for kernel a440d8f9-0753-467e-b2d2-08ca71452feb
+[I 03:07:47.474 LabApp] Saving file at /ban100/Untitled.ipynb
+[I 03:09:47.571 LabApp] Saving file at /ban100/Untitled.ipynb
+[I 03:10:26.841 LabApp] Saving file at /ban100/Untitled.ipynb
+[I 03:10:43.329 LabApp] Starting buffering for 5e284334-ed1e-4ed8-a0a4-67eead2d9a66:ab616d7a-a812-4091-9eb3-4eeec942869d
+[I 03:10:43.330 LabApp] Starting buffering for a440d8f9-0753-467e-b2d2-08ca71452feb:211d11ae-9add-4b1e-811a-e3fb4c8e3f87
+[I 03:15:45.849 LabApp] 302 GET /jupyter/ (127.0.0.1) 0.52ms
+[I 03:15:46.774 LabApp] Node v8.9.4
+    
+[I 03:15:46.807 LabApp] Build is up to date
+[I 03:15:49.246 LabApp] Adapting to protocol v5.1 for kernel a440d8f9-0753-467e-b2d2-08ca71452feb
+[I 03:15:56.524 LabApp] Adapting to protocol v5.1 for kernel a440d8f9-0753-467e-b2d2-08ca71452feb
+[I 03:16:29.515 LabApp] Creating new notebook in /ban100
+[I 03:16:29.681 LabApp] Kernel started: 40a72f35-b84d-40ed-b827-84efffe4591d
+[I 03:16:31.825 LabApp] Adapting to protocol v5.1 for kernel 40a72f35-b84d-40ed-b827-84efffe4591d
+[I 03:16:33.972 LabApp] Adapting to protocol v5.1 for kernel a440d8f9-0753-467e-b2d2-08ca71452feb
+[I 03:18:33.650 LabApp] Saving file at /ban100/Stepwise.ipynb
+[I 03:22:33.739 LabApp] Saving file at /ban100/Stepwise.ipynb
+[I 03:24:33.850 LabApp] Saving file at /ban100/Stepwise.ipynb
+[I 03:26:34.524 LabApp] Saving file at /ban100/Stepwise.ipynb
+[I 03:30:35.620 LabApp] Saving file at /ban100/Stepwise.ipynb
+[I 03:32:36.107 LabApp] Saving file at /ban100/Stepwise.ipynb
+[I 03:34:36.222 LabApp] Saving file at /ban100/Stepwise.ipynb
+[I 03:36:36.314 LabApp] Saving file at /ban100/Stepwise.ipynb
+[I 03:38:36.407 LabApp] Saving file at /ban100/Stepwise.ipynb
+[I 03:40:36.517 LabApp] Saving file at /ban100/Stepwise.ipynb
+[I 03:42:36.615 LabApp] Saving file at /ban100/Stepwise.ipynb
+[I 03:43:51.310 LabApp] Saving file at /ban100/Stepwise.ipynb
+[I 03:43:52.344 LabApp] Starting buffering for 40a72f35-b84d-40ed-b827-84efffe4591d:1e7d717e-f830-41d3-a3bb-bbf8d6696003
+[I 03:43:52.346 LabApp] Starting buffering for a440d8f9-0753-467e-b2d2-08ca71452feb:3398bd84-6f69-4443-b385-c6ca4887cc28
+[I 03:47:29.984 LabApp] 302 GET /jupyter/ (127.0.0.1) 0.39ms
+[I 03:47:30.871 LabApp] Node v8.9.4
+    
+[I 03:47:30.946 LabApp] Build is up to date
+[I 03:47:31.622 LabApp] Adapting to protocol v5.1 for kernel a440d8f9-0753-467e-b2d2-08ca71452feb
+[I 03:47:40.654 LabApp] Adapting to protocol v5.1 for kernel 40a72f35-b84d-40ed-b827-84efffe4591d
+[I 03:47:40.707 LabApp] Starting buffering for 40a72f35-b84d-40ed-b827-84efffe4591d:ac4d57bb-ae63-4c82-af52-645a2c73cbeb
