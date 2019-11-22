@@ -1,89 +1,23 @@
-[W 01:49:46.923 LabApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
-[I 01:49:46.939 LabApp] JupyterLab extension loaded from /usr/lib64/python3.5/site-packages/jupyterlab
-[I 01:49:46.939 LabApp] JupyterLab application directory is /usr/share/jupyter/lab
-[W 01:49:46.942 LabApp] JupyterLab server extension not enabled, manually loading...
-[I 01:49:46.947 LabApp] JupyterLab extension loaded from /usr/lib64/python3.5/site-packages/jupyterlab
-[I 01:49:46.947 LabApp] JupyterLab application directory is /usr/share/jupyter/lab
-[I 01:49:46.948 LabApp] Serving notebooks from local directory: /folders/myfolders
-[I 01:49:46.948 LabApp] The Jupyter Notebook is running at:
-[I 01:49:46.948 LabApp] http://(localhost.localdomain or 127.0.0.1):8890/jupyter/
-[I 01:49:46.948 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
-[I 01:58:39.602 LabApp] Node v8.9.4
+[W 04:02:17.722 LabApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[I 04:02:17.741 LabApp] JupyterLab extension loaded from /usr/lib64/python3.5/site-packages/jupyterlab
+[I 04:02:17.742 LabApp] JupyterLab application directory is /usr/share/jupyter/lab
+[W 04:02:17.745 LabApp] JupyterLab server extension not enabled, manually loading...
+[I 04:02:17.755 LabApp] JupyterLab extension loaded from /usr/lib64/python3.5/site-packages/jupyterlab
+[I 04:02:17.755 LabApp] JupyterLab application directory is /usr/share/jupyter/lab
+[I 04:02:17.756 LabApp] Serving notebooks from local directory: /folders/myfolders
+[I 04:02:17.756 LabApp] The Jupyter Notebook is running at:
+[I 04:02:17.757 LabApp] http://(localhost.localdomain or 127.0.0.1):8890/jupyter/
+[I 04:02:17.757 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 04:03:13.901 LabApp] 302 GET /jupyter/ (127.0.0.1) 0.86ms
+[I 04:03:14.795 LabApp] Node v8.9.4
     
-[I 01:58:39.744 LabApp] Build is up to date
-[I 01:58:40.305 LabApp] Kernel started: 65da9fa1-453a-4ef6-8bc3-2f5f7c78be23
-[I 01:58:42.380 LabApp] Adapting to protocol v5.1 for kernel 65da9fa1-453a-4ef6-8bc3-2f5f7c78be23
-[I 01:58:42.397 LabApp] Adapting to protocol v5.1 for kernel 65da9fa1-453a-4ef6-8bc3-2f5f7c78be23
-[I 01:58:50.205 LabApp] Creating new notebook in /ban110/group_project
-[I 01:58:50.362 LabApp] Kernel started: e241308d-533e-4738-ba47-647bcec72b3d
-[I 01:58:52.238 LabApp] Adapting to protocol v5.1 for kernel e241308d-533e-4738-ba47-647bcec72b3d
-[I 02:00:50.325 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 02:04:50.380 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 02:06:50.435 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 02:08:50.509 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 02:10:50.572 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 02:12:50.642 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 02:14:50.710 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 02:16:50.787 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 02:18:50.869 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 02:20:50.963 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 02:22:51.031 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 02:24:52.066 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 02:26:52.142 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 02:28:52.250 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 02:30:52.633 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 02:32:52.731 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 02:34:52.853 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 02:36:53.015 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 02:44:54.092 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 02:46:54.262 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 02:48:54.432 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 02:52:54.593 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[W 02:53:43.750 LabApp] Notebook ban110/weekly_activity/Chapter16_TransformationsofInterval-ScaledVariables.ipynb is not trusted
-[I 02:53:45.706 LabApp] Kernel started: a2a2cbc9-1ad8-4fcb-b9ea-29469c18666b
-[I 02:53:47.457 LabApp] Adapting to protocol v5.1 for kernel a2a2cbc9-1ad8-4fcb-b9ea-29469c18666b
-[W 02:53:59.038 LabApp] Notebook ban110/weekly_activity/Chapter17_TransformationsofCategoricalVariables.ipynb is not trusted
-[W 02:53:59.909 LabApp] Notebook ban110/weekly_activity/chapter12_correctingerrors.ipynb is not trusted
-[I 02:54:01.343 LabApp] Kernel started: 0ecbb508-533e-4709-8fcb-b7ee667cd9f2
-[I 02:54:03.113 LabApp] Adapting to protocol v5.1 for kernel 0ecbb508-533e-4709-8fcb-b7ee667cd9f2
-[W 02:54:10.198 LabApp] Notebook ban110/weekly_activity/Chapter4_DataCleaningTechniquesforNumericData(1).ipynb is not trusted
-[I 02:54:11.219 LabApp] Kernel started: 7ac8cbcd-e718-4dbf-aecb-3d9d67620f99
-[I 02:54:13.076 LabApp] Adapting to protocol v5.1 for kernel 7ac8cbcd-e718-4dbf-aecb-3d9d67620f99
-[I 02:54:20.340 LabApp] Starting buffering for 7ac8cbcd-e718-4dbf-aecb-3d9d67620f99:158211b4-5aaa-4417-8e7e-cb624e8cb7d0
-[I 02:54:20.341 LabApp] Starting buffering for 0ecbb508-533e-4709-8fcb-b7ee667cd9f2:826543a4-1f01-4be6-9300-d23a3acc84a2
-[I 02:54:20.344 LabApp] Starting buffering for a2a2cbc9-1ad8-4fcb-b9ea-29469c18666b:5a9b76e5-c619-446b-a855-572d0fb5bc79
-[I 02:54:20.344 LabApp] Starting buffering for e241308d-533e-4738-ba47-647bcec72b3d:4740d35f-4041-45a1-a654-91ae7124a622
-[I 02:54:20.344 LabApp] Starting buffering for 65da9fa1-453a-4ef6-8bc3-2f5f7c78be23:fbae145b-8c8e-4f0b-85ec-c654139344d4
-[I 02:54:35.352 LabApp] 302 GET /jupyter/ (127.0.0.1) 0.51ms
-[I 02:54:36.144 LabApp] Node v8.9.4
-    
-[I 02:54:36.177 LabApp] Build is up to date
-[W 02:54:36.594 LabApp] Notebook ban110/weekly_activity/Chapter4_DataCleaningTechniquesforNumericData(1).ipynb is not trusted
-[W 02:54:36.666 LabApp] Notebook ban110/weekly_activity/Chapter17_TransformationsofCategoricalVariables.ipynb is not trusted
-[W 02:54:36.766 LabApp] Notebook ban110/weekly_activity/Chapter16_TransformationsofInterval-ScaledVariables.ipynb is not trusted
-[I 02:54:38.416 LabApp] Adapting to protocol v5.1 for kernel e241308d-533e-4738-ba47-647bcec72b3d
-[I 02:54:38.578 LabApp] Adapting to protocol v5.1 for kernel 7ac8cbcd-e718-4dbf-aecb-3d9d67620f99
-[I 02:54:38.607 LabApp] Adapting to protocol v5.1 for kernel 0ecbb508-533e-4709-8fcb-b7ee667cd9f2
-[I 02:54:38.624 LabApp] Adapting to protocol v5.1 for kernel a2a2cbc9-1ad8-4fcb-b9ea-29469c18666b
-[I 02:54:45.995 LabApp] Adapting to protocol v5.1 for kernel 7ac8cbcd-e718-4dbf-aecb-3d9d67620f99
-[I 02:54:49.407 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 02:54:51.054 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 02:54:51.767 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 02:54:51.947 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[W 02:55:01.390 LabApp] Notebook Assignments/Assignment3_NumAttr_Tran.ipynb is not trusted
-[I 02:55:02.806 LabApp] Kernel started: f263c917-aeb4-47d0-90c3-fc2e5357ffe7
-[I 02:55:04.806 LabApp] Adapting to protocol v5.1 for kernel f263c917-aeb4-47d0-90c3-fc2e5357ffe7
-[I 02:56:52.122 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 03:00:52.288 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 03:02:52.456 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 03:04:52.631 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 03:06:52.815 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 03:08:53.101 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 03:09:42.663 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 03:09:44.100 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 03:10:14.617 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 03:10:16.145 LabApp] Starting buffering for f263c917-aeb4-47d0-90c3-fc2e5357ffe7:cc4da18e-c0d2-4798-8ee0-343d44b43e2e
-[I 03:10:16.146 LabApp] Starting buffering for a2a2cbc9-1ad8-4fcb-b9ea-29469c18666b:7147d56f-b115-44c7-87b4-d6d3aac7ca32
-[I 03:10:16.147 LabApp] Starting buffering for e241308d-533e-4738-ba47-647bcec72b3d:d93e1e9f-d96f-4fed-a13f-c5968584acfa
-[I 03:10:16.147 LabApp] Starting buffering for 7ac8cbcd-e718-4dbf-aecb-3d9d67620f99:7bc2756b-bf8f-41b6-87ff-b0d2863c42b1
-[I 03:10:16.147 LabApp] Starting buffering for 0ecbb508-533e-4709-8fcb-b7ee667cd9f2:73c6529f-170c-4df8-acd3-438728a214c5
+[I 04:03:14.931 LabApp] Build is up to date
+[I 04:03:18.367 LabApp] Kernel started: 8604ec29-8091-45fc-a85e-9e4c69f0d89e
+[I 04:03:20.622 LabApp] Adapting to protocol v5.1 for kernel 8604ec29-8091-45fc-a85e-9e4c69f0d89e
+[I 04:03:20.640 LabApp] Adapting to protocol v5.1 for kernel 8604ec29-8091-45fc-a85e-9e4c69f0d89e
+[I 04:05:18.123 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
+[I 04:07:18.351 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
+[I 04:07:38.389 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
+[I 04:07:39.095 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
+[I 04:07:39.324 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
+[I 04:07:40.079 LabApp] Starting buffering for 8604ec29-8091-45fc-a85e-9e4c69f0d89e:8c43ab9e-3439-4abf-a5af-258d94d72088
