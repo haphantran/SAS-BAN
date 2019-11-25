@@ -1,0 +1,27 @@
+ 
+ 1          OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+ 72         
+ 73         libname learn '/folders/myfolders/data';
+ NOTE: Libref LEARN was successfully assigned as follows: 
+       Engine:        V9 
+       Physical Name: /folders/myfolders/data
+ 74         
+ 75         
+ 76         title "Ages of Customers by Group and Gender";
+ 77         proc tabulate data=learn.customer_dim;
+ 78         class customer_group customer_gender;
+ 79         var customer_age;
+ 80         table customer_group all,
+ 81         customer_gender*(customer_age*(n Mean));
+ 82         run;
+ 
+ NOTE: There were 77 observations read from the data set LEARN.CUSTOMER_DIM.
+ NOTE: PROCEDURE TABULATE used (Total process time):
+       real time           0.05 seconds
+       cpu time            0.04 seconds
+       
+ 
+ 83         
+ 84         
+ 85         OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+ 97         
