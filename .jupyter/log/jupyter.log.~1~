@@ -1,0 +1,114 @@
+[W 21:31:53.357 LabApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[I 21:31:53.374 LabApp] JupyterLab extension loaded from /usr/lib64/python3.5/site-packages/jupyterlab
+[I 21:31:53.374 LabApp] JupyterLab application directory is /usr/share/jupyter/lab
+[W 21:31:53.376 LabApp] JupyterLab server extension not enabled, manually loading...
+[I 21:31:53.383 LabApp] JupyterLab extension loaded from /usr/lib64/python3.5/site-packages/jupyterlab
+[I 21:31:53.383 LabApp] JupyterLab application directory is /usr/share/jupyter/lab
+[I 21:31:53.384 LabApp] Serving notebooks from local directory: /folders/myfolders
+[I 21:31:53.384 LabApp] The Jupyter Notebook is running at:
+[I 21:31:53.384 LabApp] http://(localhost.localdomain or 127.0.0.1):8890/jupyter/
+[I 21:31:53.384 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 21:46:26.609 LabApp] 302 GET /jupyter/ (127.0.0.1) 0.74ms
+[I 21:46:27.932 LabApp] Node v8.9.4
+    
+[I 21:46:28.002 LabApp] Build is up to date
+[W 21:46:28.638 LabApp] Notebook Assignments/Assignment2_CategoricalVariables_TranOld.ipynb is not trusted
+[I 21:46:29.455 LabApp] Kernel started: fd7abfaa-6da8-4cc1-8f52-9394e83e8511
+[I 21:46:29.486 LabApp] Kernel started: 648ab688-84ed-4172-a156-c51bcf22c1e1
+[I 21:46:31.737 LabApp] Adapting to protocol v5.1 for kernel fd7abfaa-6da8-4cc1-8f52-9394e83e8511
+[I 21:46:31.754 LabApp] Adapting to protocol v5.1 for kernel fd7abfaa-6da8-4cc1-8f52-9394e83e8511
+[I 21:46:31.802 LabApp] Adapting to protocol v5.1 for kernel 648ab688-84ed-4172-a156-c51bcf22c1e1
+[I 21:46:31.829 LabApp] Adapting to protocol v5.1 for kernel 648ab688-84ed-4172-a156-c51bcf22c1e1
+[W 21:48:57.937 LabApp] Notebook ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb is not trusted
+[W 21:48:59.084 LabApp] 404 GET /jupyter/files/ban110/weekly_activity/img/3-sigma-rules.png?1576187339023 (127.0.0.1) 46.90ms referer=http://localhost:10080/jupyter/lab?
+[I 21:48:59.705 LabApp] Kernel started: d256909d-03fe-4cb9-a39d-9b96fbd2c76a
+[I 21:49:01.588 LabApp] Adapting to protocol v5.1 for kernel d256909d-03fe-4cb9-a39d-9b96fbd2c76a
+[I 22:04:59.106 LabApp] Saving file at /ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb
+[W 22:04:59.107 LabApp] Notebook ban110/weekly_activity/Chapter5_AutomaticOutlierDetection.ipynb is not trusted
+[W 22:14:02.498 LabApp] 404 GET /jupyter/api/contents/ban110/weekly_activity/Chapter5_AutomaticOutlierDetection%2520(1).ipynb?type=notebook&content=1&1576188842491 (127.0.0.1): No such file or directory: ban110/weekly_activity/Chapter5_AutomaticOutlierDetection%20(1).ipynb
+[W 22:14:02.498 LabApp] No such file or directory: ban110/weekly_activity/Chapter5_AutomaticOutlierDetection%%20(1).ipynb
+[W 22:14:02.498 LabApp] 404 GET /jupyter/api/contents/ban110/weekly_activity/Chapter5_AutomaticOutlierDetection%2520(1).ipynb?type=notebook&content=1&1576188842491 (127.0.0.1) 2.08ms referer=http://localhost:10080/jupyter/lab?
+[I 22:45:03.063 LabApp] Starting buffering for d256909d-03fe-4cb9-a39d-9b96fbd2c76a:16fcfb93-2217-494f-9cba-52db88d0ca5e
+[I 22:45:03.064 LabApp] Starting buffering for fd7abfaa-6da8-4cc1-8f52-9394e83e8511:22ab6f3e-067a-46ae-b294-ad4f6baf5ba7
+[I 22:45:03.065 LabApp] Starting buffering for 648ab688-84ed-4172-a156-c51bcf22c1e1:05161491-8511-4957-afe1-115c6e5bf9f7
+[I 00:30:19.752 LabApp] Adapting to protocol v5.1 for kernel 648ab688-84ed-4172-a156-c51bcf22c1e1
+[I 00:30:19.754 LabApp] Restoring connection for 648ab688-84ed-4172-a156-c51bcf22c1e1:05161491-8511-4957-afe1-115c6e5bf9f7
+[I 00:30:19.788 LabApp] Adapting to protocol v5.1 for kernel d256909d-03fe-4cb9-a39d-9b96fbd2c76a
+[I 00:30:19.790 LabApp] Restoring connection for d256909d-03fe-4cb9-a39d-9b96fbd2c76a:16fcfb93-2217-494f-9cba-52db88d0ca5e
+[I 00:30:19.808 LabApp] Adapting to protocol v5.1 for kernel fd7abfaa-6da8-4cc1-8f52-9394e83e8511
+[I 00:30:19.812 LabApp] Restoring connection for fd7abfaa-6da8-4cc1-8f52-9394e83e8511:22ab6f3e-067a-46ae-b294-ad4f6baf5ba7
+[I 00:30:19.828 LabApp] Adapting to protocol v5.1 for kernel 648ab688-84ed-4172-a156-c51bcf22c1e1
+[W 02:37:49.853 LabApp] Notebook ban110/weekly_activity/Chapter8_SomePROCSQLSolutionstoDataCleaning.ipynb is not trusted
+[I 02:37:50.705 LabApp] Kernel started: a8e023d0-6703-4c30-be31-86ed6959861e
+[I 02:37:52.580 LabApp] Adapting to protocol v5.1 for kernel a8e023d0-6703-4c30-be31-86ed6959861e
+[I 02:39:50.410 LabApp] Saving file at /ban110/weekly_activity/Chapter8_SomePROCSQLSolutionstoDataCleaning.ipynb
+[W 02:39:50.411 LabApp] Notebook ban110/weekly_activity/Chapter8_SomePROCSQLSolutionstoDataCleaning.ipynb is not trusted
+[I 02:41:50.546 LabApp] Saving file at /ban110/weekly_activity/Chapter8_SomePROCSQLSolutionstoDataCleaning.ipynb
+[W 02:41:50.547 LabApp] Notebook ban110/weekly_activity/Chapter8_SomePROCSQLSolutionstoDataCleaning.ipynb is not trusted
+[W 02:54:13.424 LabApp] Notebook ban110/weekly_activity/Chapter22_Sampling(1).ipynb is not trusted
+[I 02:54:14.342 LabApp] Kernel started: f9ce210d-45a2-49c3-bcc8-a8faccd6904e
+[I 02:54:16.251 LabApp] Adapting to protocol v5.1 for kernel f9ce210d-45a2-49c3-bcc8-a8faccd6904e
+[I 02:58:14.030 LabApp] Saving file at /ban110/weekly_activity/Chapter22_Sampling(1).ipynb
+[W 02:58:14.031 LabApp] Notebook ban110/weekly_activity/Chapter22_Sampling(1).ipynb is not trusted
+[I 03:00:14.206 LabApp] Saving file at /ban110/weekly_activity/Chapter22_Sampling(1).ipynb
+[W 03:00:14.206 LabApp] Notebook ban110/weekly_activity/Chapter22_Sampling(1).ipynb is not trusted
+[W 03:13:06.383 LabApp] 404 GET /jupyter/api/contents/ban110/weekly_activity/Chapter%252016%2520-%2520Transformations%2520on%2520interval-scaled%2520var-%2520cont.ipynb?type=notebook&content=1&1576206786377 (127.0.0.1): No such file or directory: ban110/weekly_activity/Chapter%2016%20-%20Transformations%20on%20interval-scaled%20var-%20cont.ipynb
+[W 03:13:06.383 LabApp] No such file or directory: ban110/weekly_activity/Chapter%%2016%%20-%%20Transformations%%20on%%20interval-scaled%%20var-%%20cont.ipynb
+[W 03:13:06.384 LabApp] 404 GET /jupyter/api/contents/ban110/weekly_activity/Chapter%252016%2520-%2520Transformations%2520on%2520interval-scaled%2520var-%2520cont.ipynb?type=notebook&content=1&1576206786377 (127.0.0.1) 1.91ms referer=http://localhost:10080/jupyter/lab?
+[W 03:13:10.915 LabApp] Notebook ban110/weekly_activity/Chapter16_TransformationsofInterval-ScaledVariables.ipynb is not trusted
+[I 03:13:12.794 LabApp] Kernel started: 00cd1c23-3738-42d2-aa48-b311e2651093
+[I 03:13:14.890 LabApp] Adapting to protocol v5.1 for kernel 00cd1c23-3738-42d2-aa48-b311e2651093
+[W 03:13:19.999 LabApp] delete /ban110/weekly_activity/Chapter%2016%20-%20Transformations%20on%20interval-scaled%20var-%20cont.ipynb
+[W 03:13:20.000 LabApp] 404 DELETE /jupyter/api/contents/ban110/weekly_activity/Chapter%252016%2520-%2520Transformations%2520on%2520interval-scaled%2520var-%2520cont.ipynb?1576206799994 (127.0.0.1): File or directory does not exist: /folders/myfolders/ban110/weekly_activity/Chapter%2016%20-%20Transformations%20on%20interval-scaled%20var-%20cont.ipynb
+[W 03:13:20.000 LabApp] File or directory does not exist: /folders/myfolders/ban110/weekly_activity/Chapter%%2016%%20-%%20Transformations%%20on%%20interval-scaled%%20var-%%20cont.ipynb
+[W 03:13:20.001 LabApp] 404 DELETE /jupyter/api/contents/ban110/weekly_activity/Chapter%252016%2520-%2520Transformations%2520on%2520interval-scaled%2520var-%2520cont.ipynb?1576206799994 (127.0.0.1) 2.18ms referer=http://localhost:10080/jupyter/lab?
+[W 03:36:15.732 LabApp] Notebook ban110/weekly_activity/Chapter4_DataCleaningTechniquesforNumericData(1).ipynb is not trusted
+[I 03:36:16.731 LabApp] Kernel started: 9bf517f2-41b4-4577-baf0-498ff309f7ec
+[I 03:36:18.580 LabApp] Adapting to protocol v5.1 for kernel 9bf517f2-41b4-4577-baf0-498ff309f7ec
+[W 03:37:39.727 LabApp] Notebook ban110/weekly_activity/chapter12_correctingerrors.ipynb is not trusted
+[I 03:37:41.421 LabApp] Kernel started: 724bc2f0-caa4-45e8-9666-a330e289cdd0
+[I 03:37:43.467 LabApp] Adapting to protocol v5.1 for kernel 724bc2f0-caa4-45e8-9666-a330e289cdd0
+[I 03:41:40.932 LabApp] Saving file at /ban110/weekly_activity/chapter12_correctingerrors.ipynb
+[W 03:41:40.932 LabApp] Notebook ban110/weekly_activity/chapter12_correctingerrors.ipynb is not trusted
+[W 03:46:57.593 LabApp] Notebook ban110/weekly_activity/Chapter8_SomePROCSQLSolutionstoDataCleaning.ipynb is not trusted
+[I 03:46:58.827 LabApp] Adapting to protocol v5.1 for kernel a8e023d0-6703-4c30-be31-86ed6959861e
+[W 03:47:15.888 LabApp] Notebook ban110/weekly_activity/Chapter17_TransformationsofCategoricalVariables.ipynb is not trusted
+[I 03:47:17.166 LabApp] Kernel started: 767433ac-ef75-4048-81e2-228b6f6a69bf
+[I 03:47:20.022 LabApp] Adapting to protocol v5.1 for kernel 767433ac-ef75-4048-81e2-228b6f6a69bf
+[I 04:23:01.339 LabApp] Starting buffering for 00cd1c23-3738-42d2-aa48-b311e2651093:f66c6d80-b0ba-4c80-ba56-eabe3b7c9452
+[I 04:23:01.340 LabApp] Starting buffering for fd7abfaa-6da8-4cc1-8f52-9394e83e8511:22ab6f3e-067a-46ae-b294-ad4f6baf5ba7
+[I 04:23:01.340 LabApp] Starting buffering for f9ce210d-45a2-49c3-bcc8-a8faccd6904e:d31bf205-ec9f-48d4-b319-866c6c2bb3e9
+[I 04:23:01.341 LabApp] Starting buffering for d256909d-03fe-4cb9-a39d-9b96fbd2c76a:16fcfb93-2217-494f-9cba-52db88d0ca5e
+[I 04:23:01.342 LabApp] Starting buffering for 9bf517f2-41b4-4577-baf0-498ff309f7ec:e1fd283e-eb96-446d-80e0-34cf84ed5869
+[I 04:23:01.343 LabApp] Starting buffering for 724bc2f0-caa4-45e8-9666-a330e289cdd0:d0ca03c8-5cfc-414f-bf0c-fa6060e4bd5c
+[I 04:23:01.343 LabApp] Starting buffering for a8e023d0-6703-4c30-be31-86ed6959861e:3ab62f87-3394-468e-acff-8520ff855f30
+[I 04:23:01.343 LabApp] Starting buffering for 767433ac-ef75-4048-81e2-228b6f6a69bf:33d98752-2769-4437-8460-7667b43167cc
+[I 04:23:01.344 LabApp] Starting buffering for 648ab688-84ed-4172-a156-c51bcf22c1e1:05161491-8511-4957-afe1-115c6e5bf9f7
+[I 04:23:02.814 LabApp] Adapting to protocol v5.1 for kernel 00cd1c23-3738-42d2-aa48-b311e2651093
+[I 04:23:02.815 LabApp] Restoring connection for 00cd1c23-3738-42d2-aa48-b311e2651093:f66c6d80-b0ba-4c80-ba56-eabe3b7c9452
+[I 04:23:02.937 LabApp] Adapting to protocol v5.1 for kernel 724bc2f0-caa4-45e8-9666-a330e289cdd0
+[I 04:23:02.939 LabApp] Restoring connection for 724bc2f0-caa4-45e8-9666-a330e289cdd0:d0ca03c8-5cfc-414f-bf0c-fa6060e4bd5c
+[I 04:23:07.171 LabApp] Adapting to protocol v5.1 for kernel 9bf517f2-41b4-4577-baf0-498ff309f7ec
+[I 04:23:07.172 LabApp] Restoring connection for 9bf517f2-41b4-4577-baf0-498ff309f7ec:e1fd283e-eb96-446d-80e0-34cf84ed5869
+[I 04:23:07.188 LabApp] Adapting to protocol v5.1 for kernel fd7abfaa-6da8-4cc1-8f52-9394e83e8511
+[I 04:23:07.189 LabApp] Restoring connection for fd7abfaa-6da8-4cc1-8f52-9394e83e8511:22ab6f3e-067a-46ae-b294-ad4f6baf5ba7
+[I 04:23:07.212 LabApp] Adapting to protocol v5.1 for kernel 648ab688-84ed-4172-a156-c51bcf22c1e1
+[I 04:23:07.228 LabApp] Restoring connection for 648ab688-84ed-4172-a156-c51bcf22c1e1:05161491-8511-4957-afe1-115c6e5bf9f7
+[I 04:23:07.245 LabApp] Adapting to protocol v5.1 for kernel a8e023d0-6703-4c30-be31-86ed6959861e
+[I 04:23:07.264 LabApp] Adapting to protocol v5.1 for kernel a8e023d0-6703-4c30-be31-86ed6959861e
+[I 04:23:07.284 LabApp] Adapting to protocol v5.1 for kernel f9ce210d-45a2-49c3-bcc8-a8faccd6904e
+[I 04:23:07.285 LabApp] Restoring connection for f9ce210d-45a2-49c3-bcc8-a8faccd6904e:d31bf205-ec9f-48d4-b319-866c6c2bb3e9
+[I 04:23:16.978 LabApp] Adapting to protocol v5.1 for kernel d256909d-03fe-4cb9-a39d-9b96fbd2c76a
+[I 04:23:16.980 LabApp] Restoring connection for d256909d-03fe-4cb9-a39d-9b96fbd2c76a:16fcfb93-2217-494f-9cba-52db88d0ca5e
+[I 04:23:16.996 LabApp] Adapting to protocol v5.1 for kernel 767433ac-ef75-4048-81e2-228b6f6a69bf
+[I 04:23:16.997 LabApp] Restoring connection for 767433ac-ef75-4048-81e2-228b6f6a69bf:33d98752-2769-4437-8460-7667b43167cc
+[I 04:23:17.014 LabApp] Adapting to protocol v5.1 for kernel 648ab688-84ed-4172-a156-c51bcf22c1e1
+[I 04:23:28.286 LabApp] Starting buffering for 724bc2f0-caa4-45e8-9666-a330e289cdd0:d0ca03c8-5cfc-414f-bf0c-fa6060e4bd5c
+[I 04:23:28.287 LabApp] Starting buffering for 9bf517f2-41b4-4577-baf0-498ff309f7ec:e1fd283e-eb96-446d-80e0-34cf84ed5869
+[I 04:23:28.288 LabApp] Starting buffering for 00cd1c23-3738-42d2-aa48-b311e2651093:f66c6d80-b0ba-4c80-ba56-eabe3b7c9452
+[I 04:23:28.289 LabApp] Starting buffering for fd7abfaa-6da8-4cc1-8f52-9394e83e8511:22ab6f3e-067a-46ae-b294-ad4f6baf5ba7
+[I 04:23:28.291 LabApp] Starting buffering for f9ce210d-45a2-49c3-bcc8-a8faccd6904e:d31bf205-ec9f-48d4-b319-866c6c2bb3e9
+[I 04:23:28.292 LabApp] Starting buffering for a8e023d0-6703-4c30-be31-86ed6959861e:3ab62f87-3394-468e-acff-8520ff855f30
+[I 04:23:28.293 LabApp] Starting buffering for d256909d-03fe-4cb9-a39d-9b96fbd2c76a:16fcfb93-2217-494f-9cba-52db88d0ca5e
+[I 04:23:28.293 LabApp] Starting buffering for 648ab688-84ed-4172-a156-c51bcf22c1e1:c6ceeedd-cbb7-4bc2-81c6-805f9340ec13
+[I 04:23:28.294 LabApp] Starting buffering for 767433ac-ef75-4048-81e2-228b6f6a69bf:33d98752-2769-4437-8460-7667b43167cc

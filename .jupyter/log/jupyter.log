@@ -1,73 +1,23 @@
-[W 23:50:51.221 LabApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
-[I 23:50:51.238 LabApp] JupyterLab extension loaded from /usr/lib64/python3.5/site-packages/jupyterlab
-[I 23:50:51.238 LabApp] JupyterLab application directory is /usr/share/jupyter/lab
-[W 23:50:51.240 LabApp] JupyterLab server extension not enabled, manually loading...
-[I 23:50:51.247 LabApp] JupyterLab extension loaded from /usr/lib64/python3.5/site-packages/jupyterlab
-[I 23:50:51.247 LabApp] JupyterLab application directory is /usr/share/jupyter/lab
-[I 23:50:51.248 LabApp] Serving notebooks from local directory: /folders/myfolders
-[I 23:50:51.248 LabApp] The Jupyter Notebook is running at:
-[I 23:50:51.248 LabApp] http://(localhost.localdomain or 127.0.0.1):8890/jupyter/
-[I 23:50:51.248 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
-[I 00:08:58.757 LabApp] 302 GET /jupyter/ (127.0.0.1) 0.84ms
-[I 00:08:59.762 LabApp] Node v8.9.4
+[W 01:33:45.877 LabApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[I 01:33:45.892 LabApp] JupyterLab extension loaded from /usr/lib64/python3.5/site-packages/jupyterlab
+[I 01:33:45.892 LabApp] JupyterLab application directory is /usr/share/jupyter/lab
+[W 01:33:45.894 LabApp] JupyterLab server extension not enabled, manually loading...
+[I 01:33:45.899 LabApp] JupyterLab extension loaded from /usr/lib64/python3.5/site-packages/jupyterlab
+[I 01:33:45.900 LabApp] JupyterLab application directory is /usr/share/jupyter/lab
+[I 01:33:45.900 LabApp] Serving notebooks from local directory: /folders/myfolders
+[I 01:33:45.900 LabApp] The Jupyter Notebook is running at:
+[I 01:33:45.901 LabApp] http://(localhost.localdomain or 127.0.0.1):8890/jupyter/
+[I 01:33:45.901 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 01:34:02.346 LabApp] 302 GET /jupyter/ (127.0.0.1) 1.74ms
+[I 01:34:03.671 LabApp] Node v8.9.4
     
-[I 00:08:59.927 LabApp] Build is up to date
-[W 00:09:00.350 LabApp] Notebook Assignments/Assignment2_CategoricalVariables_TranOld.ipynb is not trusted
-[I 00:09:02.389 LabApp] Kernel started: f468a54d-01b7-4d89-80a9-6f08f52403a4
-[I 00:09:02.491 LabApp] Kernel started: 8589acdf-2027-4f3e-9717-f5e26ff0cba3
-[I 00:09:04.637 LabApp] Adapting to protocol v5.1 for kernel f468a54d-01b7-4d89-80a9-6f08f52403a4
-[I 00:09:04.654 LabApp] Adapting to protocol v5.1 for kernel f468a54d-01b7-4d89-80a9-6f08f52403a4
-[I 00:09:04.679 LabApp] Adapting to protocol v5.1 for kernel 8589acdf-2027-4f3e-9717-f5e26ff0cba3
-[I 00:09:04.696 LabApp] Adapting to protocol v5.1 for kernel 8589acdf-2027-4f3e-9717-f5e26ff0cba3
-[I 00:11:01.728 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 00:13:02.514 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 00:15:02.714 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 00:17:02.947 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 00:19:03.149 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 00:25:03.361 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 00:27:03.594 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 00:29:03.798 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 00:31:04.018 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 00:33:04.520 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 00:35:04.759 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 00:37:04.986 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 00:41:05.829 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 00:43:06.520 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 00:45:06.734 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 00:47:06.956 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 00:55:07.529 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 00:57:07.786 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 00:59:08.530 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 01:03:09.519 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 01:05:09.801 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 01:07:10.524 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 01:09:11.521 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 01:11:11.793 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 01:41:12.526 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 01:45:13.533 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 01:51:13.851 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 01:53:14.597 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 01:55:14.872 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 01:57:15.127 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 01:59:15.412 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 02:01:15.678 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 02:03:16.006 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 02:05:16.567 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 02:31:19.002 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 02:35:19.872 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 02:47:21.506 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 02:49:21.713 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 02:51:21.929 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 02:57:22.061 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 02:59:22.278 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 03:01:22.496 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 03:03:22.710 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 03:05:22.977 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 03:07:23.265 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 03:09:23.567 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 03:11:24.004 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 03:13:24.304 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 03:15:24.633 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 03:17:25.001 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 03:19:25.352 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
-[I 03:19:48.607 LabApp] Saving file at /ban110/group_project/Untitled.ipynb
+[I 01:34:03.939 LabApp] Build is up to date
+[I 01:34:08.293 LabApp] Kernel started: d105d182-37ac-42cf-856b-25890d4fe3d4
+[I 01:34:10.651 LabApp] Adapting to protocol v5.1 for kernel d105d182-37ac-42cf-856b-25890d4fe3d4
+[I 01:34:10.670 LabApp] Adapting to protocol v5.1 for kernel d105d182-37ac-42cf-856b-25890d4fe3d4
+[I 01:36:07.497 LabApp] Saving file at /certadv/studyGuide.ipynb
+[I 01:38:07.595 LabApp] Saving file at /certadv/studyGuide.ipynb
+[I 01:40:07.687 LabApp] Saving file at /certadv/studyGuide.ipynb
+[I 01:50:07.784 LabApp] Saving file at /certadv/studyGuide.ipynb
+[I 01:50:55.175 LabApp] Saving file at /certadv/studyGuide.ipynb
+[I 01:50:55.501 LabApp] Saving file at /certadv/studyGuide.ipynb
