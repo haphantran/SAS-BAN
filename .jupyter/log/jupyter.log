@@ -1,23 +1,43 @@
-[W 01:33:45.877 LabApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
-[I 01:33:45.892 LabApp] JupyterLab extension loaded from /usr/lib64/python3.5/site-packages/jupyterlab
-[I 01:33:45.892 LabApp] JupyterLab application directory is /usr/share/jupyter/lab
-[W 01:33:45.894 LabApp] JupyterLab server extension not enabled, manually loading...
-[I 01:33:45.899 LabApp] JupyterLab extension loaded from /usr/lib64/python3.5/site-packages/jupyterlab
-[I 01:33:45.900 LabApp] JupyterLab application directory is /usr/share/jupyter/lab
-[I 01:33:45.900 LabApp] Serving notebooks from local directory: /folders/myfolders
-[I 01:33:45.900 LabApp] The Jupyter Notebook is running at:
-[I 01:33:45.901 LabApp] http://(localhost.localdomain or 127.0.0.1):8890/jupyter/
-[I 01:33:45.901 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
-[I 01:34:02.346 LabApp] 302 GET /jupyter/ (127.0.0.1) 1.74ms
-[I 01:34:03.671 LabApp] Node v8.9.4
+[W 01:29:15.086 LabApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[I 01:29:15.102 LabApp] JupyterLab extension loaded from /usr/lib64/python3.5/site-packages/jupyterlab
+[I 01:29:15.102 LabApp] JupyterLab application directory is /usr/share/jupyter/lab
+[W 01:29:15.104 LabApp] JupyterLab server extension not enabled, manually loading...
+[I 01:29:15.110 LabApp] JupyterLab extension loaded from /usr/lib64/python3.5/site-packages/jupyterlab
+[I 01:29:15.110 LabApp] JupyterLab application directory is /usr/share/jupyter/lab
+[I 01:29:15.111 LabApp] Serving notebooks from local directory: /folders/myfolders
+[I 01:29:15.111 LabApp] The Jupyter Notebook is running at:
+[I 01:29:15.111 LabApp] http://(localhost.localdomain or 127.0.0.1):8890/jupyter/
+[I 01:29:15.111 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 01:29:32.245 LabApp] 302 GET /jupyter/ (127.0.0.1) 0.99ms
+[I 01:29:33.206 LabApp] Node v8.9.4
     
-[I 01:34:03.939 LabApp] Build is up to date
-[I 01:34:08.293 LabApp] Kernel started: d105d182-37ac-42cf-856b-25890d4fe3d4
-[I 01:34:10.651 LabApp] Adapting to protocol v5.1 for kernel d105d182-37ac-42cf-856b-25890d4fe3d4
-[I 01:34:10.670 LabApp] Adapting to protocol v5.1 for kernel d105d182-37ac-42cf-856b-25890d4fe3d4
-[I 01:36:07.497 LabApp] Saving file at /certadv/studyGuide.ipynb
-[I 01:38:07.595 LabApp] Saving file at /certadv/studyGuide.ipynb
-[I 01:40:07.687 LabApp] Saving file at /certadv/studyGuide.ipynb
-[I 01:50:07.784 LabApp] Saving file at /certadv/studyGuide.ipynb
-[I 01:50:55.175 LabApp] Saving file at /certadv/studyGuide.ipynb
-[I 01:50:55.501 LabApp] Saving file at /certadv/studyGuide.ipynb
+[I 01:29:33.462 LabApp] Build is up to date
+[I 02:30:18.809 LabApp] 302 GET /jupyter/ (127.0.0.1) 0.71ms
+[I 02:31:06.218 LabApp] Creating new notebook in /certadv
+[I 02:31:06.777 LabApp] Kernel started: c7581dcf-1cb8-428b-a282-540b91d9dd69
+[I 02:31:08.772 LabApp] Adapting to protocol v5.1 for kernel c7581dcf-1cb8-428b-a282-540b91d9dd69
+[I 02:31:08.791 LabApp] Adapting to protocol v5.1 for kernel c7581dcf-1cb8-428b-a282-540b91d9dd69
+[W 02:31:11.711 LabApp] delete /certadv/Untitled.ipynb
+[I 02:31:15.935 LabApp] Kernel started: 81b6bc99-7134-4d52-bf06-ba1edb3e3bb0
+[I 02:31:17.849 LabApp] Adapting to protocol v5.1 for kernel 81b6bc99-7134-4d52-bf06-ba1edb3e3bb0
+[I 02:33:15.259 LabApp] Saving file at /certadv/studyGuide.ipynb
+[I 02:35:15.369 LabApp] Saving file at /certadv/studyGuide.ipynb
+[I 02:37:15.471 LabApp] Saving file at /certadv/studyGuide.ipynb
+[I 02:39:15.573 LabApp] Saving file at /certadv/studyGuide.ipynb
+[I 02:41:15.671 LabApp] Saving file at /certadv/studyGuide.ipynb
+[I 02:43:15.770 LabApp] Saving file at /certadv/studyGuide.ipynb
+[I 02:45:15.876 LabApp] Saving file at /certadv/studyGuide.ipynb
+[I 02:49:15.957 LabApp] Saving file at /certadv/studyGuide.ipynb
+[I 02:51:16.010 LabApp] Saving file at /certadv/studyGuide.ipynb
+[I 02:53:16.048 LabApp] Saving file at /certadv/studyGuide.ipynb
+[I 02:55:16.096 LabApp] Saving file at /certadv/studyGuide.ipynb
+[I 02:57:16.134 LabApp] Saving file at /certadv/studyGuide.ipynb
+[I 02:57:46.604 LabApp] Creating new notebook in /certadv
+[I 02:57:47.377 LabApp] Adapting to protocol v5.1 for kernel c7581dcf-1cb8-428b-a282-540b91d9dd69
+[I 02:57:50.925 LabApp] Creating new notebook in /certadv
+[I 02:57:51.401 LabApp] Kernel started: b9836883-7118-486a-8549-d705aeaa88d3
+[I 02:57:52.417 LabApp] Adapting to protocol v5.1 for kernel b9836883-7118-486a-8549-d705aeaa88d3
+[I 02:57:52.435 LabApp] Adapting to protocol v5.1 for kernel b9836883-7118-486a-8549-d705aeaa88d3
+[I 02:57:52.745 LabApp] Adapting to protocol v5.1 for kernel b9836883-7118-486a-8549-d705aeaa88d3
+[I 02:58:08.603 LabApp] Saving file at /certadv/Untitled.ipynb
+[I 02:59:17.155 LabApp] Saving file at /certadv/studyGuide.ipynb
