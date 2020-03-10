@@ -1,0 +1,70 @@
+ 
+ 1          OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+ 72         
+ 73         libname mylib '/folders/myfolders/ban130/assignment4/data/';
+ NOTE: Libref MYLIB refers to the same physical library as _TEMP1.
+ NOTE: Libref MYLIB was successfully assigned as follows: 
+       Engine:        V9 
+       Physical Name: /folders/myfolders/ban130/assignment4/data
+ 74         proc sort data=mylib.bicycles out=bike;
+ 75         by Manuf;
+ 76         run;
+ 
+ NOTE: There were 18 observations read from the data set MYLIB.BICYCLES.
+ NOTE: The data set WORK.BIKE has 18 observations and 6 variables.
+ NOTE: PROCEDURE SORT used (Total process time):
+       real time           0.00 seconds
+       cpu time            0.00 seconds
+       
+ 
+ 77         proc sort data = markup;
+ 78         by manuf;
+ 79         run;
+ 
+ NOTE: Input data set is already sorted, no sorting done.
+ NOTE: PROCEDURE SORT used (Total process time):
+       real time           0.00 seconds
+       cpu time            0.00 seconds
+       
+ 
+ 80         
+ 81         data bike;
+ 82         merge bike (in=in_bike)
+ 83         markup (in=in_manuf);
+ 84         by manuf;
+ 85         if in_bike and in_manuf;
+ 86         run;
+ 
+ NOTE: There were 18 observations read from the data set WORK.BIKE.
+ NOTE: There were 2 observations read from the data set WORK.MARKUP.
+ NOTE: The data set WORK.BIKE has 18 observations and 7 variables.
+ NOTE: DATA statement used (Total process time):
+       real time           0.00 seconds
+       cpu time            0.01 seconds
+       
+ 
+ 87         
+ 88         data Markup_Prices;
+ 89         set bikes2;
+ 90         newTotal = TotalSales*Markup;
+ 
+ NOTE: There were 18 observations read from the data set WORK.BIKES2.
+ NOTE: The data set WORK.MARKUP_PRICES has 18 observations and 8 variables.
+ NOTE: DATA statement used (Total process time):
+       real time           0.00 seconds
+       cpu time            0.00 seconds
+       
+ 
+ 91         proc print data=Markup_Prices;
+ 92         run;
+ 
+ NOTE: There were 18 observations read from the data set WORK.MARKUP_PRICES.
+ NOTE: PROCEDURE PRINT used (Total process time):
+       real time           0.06 seconds
+       cpu time            0.06 seconds
+       
+ 
+ 93         
+ 94         
+ 95         OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+ 107        

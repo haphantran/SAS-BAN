@@ -1,0 +1,42 @@
+ 
+ 1          OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+ 72         
+ 73         libname learn '/folders/myfolders/data';
+ NOTE: Libref LEARN was successfully assigned as follows: 
+       Engine:        V9 
+       Physical Name: /folders/myfolders/data
+ 74         
+ 75         title "Hypertensive Patients";
+ 76         proc report data=learn.bloodpressure;
+ 77         *proc report for dataset bloodpressure;
+ 78         *list column;
+ 79         column Gender sbp dbp Hypertensive;
+ 80         
+ 81         *display columns;
+ 82         define gender /display;
+ 83         define sbp / display;
+ 84         define dbp/ display;
+ 85         
+ 86         *computed column;
+ 87         define Hypertensive / computed  width=15 'Hypertensive?';
+ 88         
+ 89         *how to compute new variable;
+ 90         compute Hypertensive / character length=3;
+ 91         if gender = 'F' and (sbp >138 or dbp > 88) then Hypertensive = 'Yes';
+ 92         else if  gender = 'F' then Hypertensive='No' ;
+ 93         else if (sbp >140 or dbp > 90) then Hypertensive = 'Yes';
+ 94         else Hypertensive='No';
+ 95         endcomp;
+ 96         
+ 97         run;
+ 
+ NOTE: There were 8 observations read from the data set LEARN.BLOODPRESSURE.
+ NOTE: PROCEDURE REPORT used (Total process time):
+       real time           0.04 seconds
+       cpu time            0.04 seconds
+       
+ 
+ 98         
+ 99         
+ 100        OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+ 112        

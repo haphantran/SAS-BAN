@@ -1,0 +1,112 @@
+ 
+ 1          OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+ 72         
+ 73         
+ 74         libname mylib '/folders/myfolders/ban130/assignment4/data/';
+ NOTE: Libref MYLIB refers to the same physical library as _TEMP2.
+ NOTE: Libref MYLIB was successfully assigned as follows: 
+       Engine:        V9 
+       Physical Name: /folders/myfolders/ban130/assignment4/data
+ 75         
+ 76         *a;
+ 77         data mylib.evaluate;
+ 78         set mylib.psych;
+ 79         
+ 80         *using if to find QuesAve
+ 81         *i;if n(of Ques1-Ques10) ge 7 then QuesAve=mean(of Ques1-Ques10);
+ 82         
+ 83         *using if find max score min score secondhighest of the score variables;
+ 84         *ii;if n(of Score1-Score5) eq 5 then maxscore=max(of Score1-Score5);
+ 85         if n(of Score1-Score5) eq 5 then Minscore=min(of Score1-Score5);
+ 86         if n(of Score1-Score5) eq 5 then SecondHighest=largest(2,of Score1-Score5);
+ 87         
+ 88         run;
+ 
+ NOTE: There were 5 observations read from the data set MYLIB.PSYCH.
+ NOTE: The data set MYLIB.EVALUATE has 5 observations and 20 variables.
+ NOTE: DATA statement used (Total process time):
+       real time           0.03 seconds
+       cpu time            0.02 seconds
+       
+ 
+ 89         title "Listing of the Evaluate dataset";
+ 90         proc print data=mylib.evaluate noobs;
+ 91         run;
+ 
+ NOTE: There were 5 observations read from the data set MYLIB.EVALUATE.
+ NOTE: PROCEDURE PRINT used (Total process time):
+       real time           0.05 seconds
+       cpu time            0.06 seconds
+       
+ 
+ 92         
+ 93         *b;
+ 94         data medical1;
+ 95         set mylib.medical;
+ 96         *delete observation without the word antibiotics in comment;
+ 97         if not findw(comment,'antibiotics',' ','i') then delete;
+ 98         run;
+ 
+ NOTE: There were 6 observations read from the data set MYLIB.MEDICAL.
+ NOTE: The data set WORK.MEDICAL1 has 1 observations and 7 variables.
+ NOTE: DATA statement used (Total process time):
+       real time           0.01 seconds
+       cpu time            0.00 seconds
+       
+ 
+ 99         title "All patients in the Medical data set where the word antibiotics is in the comment field";
+ 100        proc print data=medical1 noobs;
+ 101        run;
+ 
+ NOTE: There were 1 observations read from the data set WORK.MEDICAL1.
+ NOTE: PROCEDURE PRINT used (Total process time):
+       real time           0.01 seconds
+       cpu time            0.01 seconds
+       
+ 
+ 102        
+ 103        *c;
+ 104        data tempq5c;
+ 105        set mylib.survey;
+ 106        *create new array with 5 questions;
+ 107        array questions(*) ques1-ques5;
+ 108        *define new variable Any5 and set the default value of No;
+ 109        length Any5 $ 3;
+ 110        Any5 = 'No';
+ 111        
+ 112        *loop through 5 questions;
+ 113        do i = 1 to dim (questions);
+ 114        if questions(i) = '5' then do; *if any of 5 questions has value 5 then;
+ 115        *set any5 to yes;
+ 116        Any5  = 'Yes';
+ 117        *leave the loop;
+ 118        leave;
+ 119        end;
+ 120        end;
+ 121        drop i;
+ 122        run;
+ 
+ NOTE: There were 7 observations read from the data set MYLIB.SURVEY.
+ NOTE: The data set WORK.TEMPQ5C has 7 observations and 10 variables.
+ NOTE: DATA statement used (Total process time):
+       real time           0.02 seconds
+       cpu time            0.01 seconds
+       
+ 
+ 123        
+ 124        title "Listing of Survey data set with newly created variable - Any5";
+ 125        proc print data = tempq5c noobs;
+ 126        run;
+ 
+ NOTE: There were 7 observations read from the data set WORK.TEMPQ5C.
+ NOTE: PROCEDURE PRINT used (Total process time):
+       real time           0.04 seconds
+       cpu time            0.03 seconds
+       
+ 
+ 127        
+ 128        
+ 129        
+ 130        
+ 131        OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+ 143        

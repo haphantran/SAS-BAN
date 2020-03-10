@@ -1,0 +1,59 @@
+ 
+ 1          OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+ 72         
+ 73         libname learn '/folders/myfolders/data';
+ NOTE: Libref LEARN was successfully assigned as follows: 
+       Engine:        V9 
+       Physical Name: /folders/myfolders/data
+ 74         
+ 75         *a;
+ 76         
+ 77         proc sort data=learn.sales;
+ 78         *sort dataset by region and totalsales;
+ 79         by region totalsales;
+ 80         run;
+ 
+ NOTE: Input data set is already sorted, no sorting done.
+ NOTE: PROCEDURE SORT used (Total process time):
+       real time           0.00 seconds
+       cpu time            0.00 seconds
+       
+ 
+ 81         
+ 82         
+ 83         title "Sales Figures from  the Sales Data Set";
+ 84         proc print data=learn.sales noobs;
+ 85         *print dataset with sum and var;
+ 86         id region;
+ 87         by region;
+ 88         sum quantity totalsales;
+ 89         var region quantity totalsales;
+ 90         run;
+ 
+ NOTE: There were 15 observations read from the data set LEARN.SALES.
+ NOTE: PROCEDURE PRINT used (Total process time):
+       real time           0.06 seconds
+       cpu time            0.05 seconds
+       
+ 
+ 91         
+ 92         
+ 93         *b;
+ 94         
+ 95         title "First 5 observation of Blood dataset";
+ 96         *print first 5 rows;
+ 97         proc print data = learn.blood
+ 98         (obs=5)
+ 99         noobs ; *omit obs column using noobs option in proc print;
+ 100        var Subject gender bloodtype; *print required variables;
+ 101        run;
+ 
+ NOTE: There were 5 observations read from the data set LEARN.BLOOD.
+ NOTE: PROCEDURE PRINT used (Total process time):
+       real time           0.01 seconds
+       cpu time            0.01 seconds
+       
+ 
+ 102        
+ 103        OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+ 115        

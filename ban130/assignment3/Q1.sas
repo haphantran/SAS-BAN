@@ -1,27 +1,12 @@
-/********************************************************************************************** 
-*  BAN130 – Assignment 3
-*  I declare that this assignment is my own work in accordance with Seneca  Academic Policy. 
-*  No part of this assignment has been copied manually or electronically from any other source 
-*  (including web sites) or distributed to other students. 
-*  
-*	Name: HaPhan Tran Student ID: 122 699 176 Date: Oct 15, 2019 
-* 
-*   QUESTION No: 1
-***********************************************************************************************/
-
-*use procedure format to create approriate format;
 proc format;
-	*format for displaying age group;
 	value age
 		0-30 = "0-30"
 		31-50 = "31-50"
 		51-70 = "51-70"
 		71-high = "71+";
-	*format for displaying party in full not in abbreeviation;
 	value $party
 		"D" = "Democrat"
 		"R" = "Republican";
-	*format for displaying the answer to all the questions in the interview;
 	value $likert
 		"1" = "Strongly Disagree"
 		"2" = "Disagree"
@@ -30,7 +15,6 @@ proc format;
 		"5" = "Strongly Agree";
 run;
 
-*Data step to read the data in with label for questions;
 data Voter; 
 	input Age Party : $1. (Ques1-Ques4)($1. + 1);
 	label 
@@ -39,7 +23,6 @@ data Voter;
 		Ques3 = "Taxes are too high"
 		Ques4 = "Government should cut spending";	
 	format Ques1-Ques4 $Likert. age age. party $party.;
-*datalines where all the data sit;
 datalines;
 23 D 1 1 2 2
 45 R 5 5 4 1
@@ -51,10 +34,10 @@ datalines;
 ;
 run;
 
-title "The voter dataset";
+
+
 proc print data = voter label;
 run;
 
-Title "The Frequency Distribution of the Voter Dataset";
 proc freq data=voter;
 run;

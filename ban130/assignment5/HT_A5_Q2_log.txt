@@ -1,0 +1,32 @@
+ 
+ 1          OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+ 72         
+ 73         libname learn '/folders/myfolders/data';
+ NOTE: Libref LEARN was successfully assigned as follows: 
+       Engine:        V9 
+       Physical Name: /folders/myfolders/data
+ 74         
+ 75         
+ 76         title "Statistics from BLOOD by Gender";
+ 77         proc report data= learn.blood nowd headline;
+ 78         *use proc report;
+ 79         column Gender WBC RBC;
+ 80         *define column;
+ 81         define Gender /group width=6; *define group var: gender;
+ 82         *define reporting var;
+ 83         define WBC / analysis mean 'AverageWBC' width=7 format= comma6.0;
+ 84         defineRBC /analysis mean 'AverageRBC' width=7 format= 5.2;
+ 85         *report summary;
+ 86         rbreak after / summarize;
+ 87         run;
+ 
+ NOTE: There were 1000 observations read from the data set LEARN.BLOOD.
+ NOTE: PROCEDURE REPORT used (Total process time):
+       real time           0.04 seconds
+       cpu time            0.03 seconds
+       
+ 
+ 88         
+ 89         
+ 90         OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+ 102        
