@@ -8,3 +8,46 @@
 [I 17:58:25.801 LabApp] The Jupyter Notebook is running at:
 [I 17:58:25.802 LabApp] http://(localhost.localdomain or 127.0.0.1):8890/jupyter/
 [I 17:58:25.810 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 18:11:08.431 LabApp] 302 GET /jupyter/ (127.0.0.1) 9.17ms
+[I 18:11:12.016 LabApp] Node v8.9.4
+    
+[I 18:11:13.301 LabApp] Build is up to date
+[W 18:11:23.372 LabApp] Notebook certadv/AdvStudyGuide.ipynb is not trusted
+[I 18:11:26.141 LabApp] Kernel started: beeb600c-b81a-44cb-94a5-3c16d9798d01
+[I 18:11:38.099 LabApp] Creating new notebook in /certadv
+[I 18:11:40.502 LabApp] Kernel started: a91f17ee-1dec-4741-9fbe-b9088b3f2c9b
+[I 18:11:40.578 LabApp] Adapting to protocol v5.1 for kernel beeb600c-b81a-44cb-94a5-3c16d9798d01
+[I 18:11:40.614 LabApp] Adapting to protocol v5.1 for kernel beeb600c-b81a-44cb-94a5-3c16d9798d01
+[I 18:11:40.651 LabApp] Adapting to protocol v5.1 for kernel beeb600c-b81a-44cb-94a5-3c16d9798d01
+[I 18:11:52.789 LabApp] Adapting to protocol v5.1 for kernel a91f17ee-1dec-4741-9fbe-b9088b3f2c9b
+[I 18:11:52.826 LabApp] Adapting to protocol v5.1 for kernel a91f17ee-1dec-4741-9fbe-b9088b3f2c9b
+[I 18:13:39.504 LabApp] Saving file at /certadv/baseCertStudy.ipynb
+[I 18:15:39.778 LabApp] Saving file at /certadv/baseCertStudy.ipynb
+[I 18:21:39.904 LabApp] Saving file at /certadv/baseCertStudy.ipynb
+[I 18:23:40.030 LabApp] Saving file at /certadv/baseCertStudy.ipynb
+[I 18:35:40.161 LabApp] Saving file at /certadv/baseCertStudy.ipynb
+[I 18:43:40.276 LabApp] Saving file at /certadv/baseCertStudy.ipynb
+[I 18:45:40.365 LabApp] Saving file at /certadv/baseCertStudy.ipynb
+[I 18:47:40.482 LabApp] Saving file at /certadv/baseCertStudy.ipynb
+[I 19:15:43.129 LabApp] Saving file at /certadv/baseCertStudy.ipynb
+[I 19:17:43.229 LabApp] Saving file at /certadv/baseCertStudy.ipynb
+[I 19:19:44.097 LabApp] Saving file at /certadv/baseCertStudy.ipynb
+[I 19:29:05.386 LabApp] Starting buffering for a91f17ee-1dec-4741-9fbe-b9088b3f2c9b:d38a3dab-5358-47c0-8c8a-38066bec1887
+[I 19:29:05.392 LabApp] Starting buffering for beeb600c-b81a-44cb-94a5-3c16d9798d01:ce4d2013-22c0-4b49-8726-5b62ade08b13
+[I 19:29:11.615 LabApp] Adapting to protocol v5.1 for kernel beeb600c-b81a-44cb-94a5-3c16d9798d01
+[I 19:29:11.621 LabApp] Restoring connection for beeb600c-b81a-44cb-94a5-3c16d9798d01:ce4d2013-22c0-4b49-8726-5b62ade08b13
+[I 19:29:11.648 LabApp] Adapting to protocol v5.1 for kernel a91f17ee-1dec-4741-9fbe-b9088b3f2c9b
+[I 19:29:11.653 LabApp] Restoring connection for a91f17ee-1dec-4741-9fbe-b9088b3f2c9b:d38a3dab-5358-47c0-8c8a-38066bec1887
+[I 19:29:11.680 LabApp] Adapting to protocol v5.1 for kernel beeb600c-b81a-44cb-94a5-3c16d9798d01
+[I 19:29:11.715 LabApp] Adapting to protocol v5.1 for kernel a91f17ee-1dec-4741-9fbe-b9088b3f2c9b
+[I 19:35:45.904 LabApp] Starting buffering for a91f17ee-1dec-4741-9fbe-b9088b3f2c9b:d38a3dab-5358-47c0-8c8a-38066bec1887
+[I 19:35:45.931 LabApp] Starting buffering for beeb600c-b81a-44cb-94a5-3c16d9798d01:ce4d2013-22c0-4b49-8726-5b62ade08b13
+[I 19:35:46.175 LabApp] Adapting to protocol v5.1 for kernel beeb600c-b81a-44cb-94a5-3c16d9798d01
+[I 19:35:46.277 LabApp] Restoring connection for beeb600c-b81a-44cb-94a5-3c16d9798d01:ce4d2013-22c0-4b49-8726-5b62ade08b13
+[I 19:35:46.641 LabApp] Adapting to protocol v5.1 for kernel beeb600c-b81a-44cb-94a5-3c16d9798d01
+[I 19:35:47.248 LabApp] Adapting to protocol v5.1 for kernel a91f17ee-1dec-4741-9fbe-b9088b3f2c9b
+[I 19:35:47.270 LabApp] Restoring connection for a91f17ee-1dec-4741-9fbe-b9088b3f2c9b:d38a3dab-5358-47c0-8c8a-38066bec1887
+[I 19:35:47.452 LabApp] Adapting to protocol v5.1 for kernel a91f17ee-1dec-4741-9fbe-b9088b3f2c9b
+[I 19:40:11.354 LabApp] Saving file at /certadv/baseCertStudy.ipynb
+[I 19:40:15.541 LabApp] Starting buffering for a91f17ee-1dec-4741-9fbe-b9088b3f2c9b:d38a3dab-5358-47c0-8c8a-38066bec1887
+[I 19:40:15.598 LabApp] Starting buffering for beeb600c-b81a-44cb-94a5-3c16d9798d01:756d1441-c251-4416-bc0c-7a9eb46bd3e5
